@@ -1,0 +1,30 @@
+<project name="feed-reading-blogroll" default="upload.mainfile" basedir=".">
+	<description>
+        simple example build file
+    </description>
+	<property file="./build.properties" />
+	<property environment="env" />
+
+	<target name="debug">
+		<echo message="${env.FTP_PASS}" />
+		<echo message="${env.FTP_USER}" />
+	</target>
+	<target name="upload.mainfile">
+		<echo message="sending files to ftp://${ftp.server}${remote.frbr.dir}" />
+		<ftp server="${ftp.server}" remotedir="${remote.frbr.dir}" 
+			userid="${env.FTP_USER}" password="${env.FTP_PASS}" depends="yes" binary="yes" passive="true" verbose="true">
+			<fileset dir="${frbr.basedir}">
+				<include name="feedreading_blogroll.php" />
+			</fileset>
+		</ftp>
+	</target>
+	<target name="delete.mainfile">
+		<echo message="sending files to ftp://${ftp.server}${remote.frbr.dir}" />
+		<ftp server="${ftp.server}" remotedir="${remote.frbr.dir}" action="delete"
+			userid="${env.FTP_USER}" password="${env.FTP_PASS}" depends="yes" binary="yes" passive="true" verbose="true">
+			<fileset>
+				<include name="feedreading_blogroll.php" />
+			</fileset>
+		</ftp>
+	</target>
+</project>
