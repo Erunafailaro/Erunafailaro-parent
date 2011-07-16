@@ -1,0 +1,155 @@
+/**
+ Plugin Name: Feed reading Blogroll
+ Plugin URI: http://www.weinschenker.name/plugin-feed-reading-blogroll/
+ Description: This plugin lets you embed an enhanced blogroll that reads the feeds of your bookmarked sites.
+ Version: 1.5.7
+ Author: Jan Weinschenker
+ Author URI: http://www.weinschenker.name
+
+
+ Plugin: Copyright 2008  Jan Weinschenker  (email: kontakt@weinschenker.name)
+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+ ==============================================================================
+ Feed reading Blogroll uses the great JSMin
+
+ JSMin 1.1.1
+ jsmin.php - PHP implementation of Douglas Crockford's JSMin. 
+ Ryan Grove <ryan@wonko.com>
+ copyright 2002 Douglas Crockford <douglas@crockford.com> (jsmin.c)
+ copyright 2008 Ryan Grove <ryan@wonko.com> (PHP port)
+ license: http://opensource.org/licenses/mit-license.php MIT License
+ http://code.google.com/p/jsmin-php/
+ ==============================================================================
+ ==============================================================================
+ Feed reading Blogroll uses the great jQuery TinySort
+ jQuery TinySort - A plugin to sort child nodes by (sub) contents or attributes.
+
+ Dual licensed under the MIT and GPL licenses:
+   http://www.opensource.org/licenses/mit-license.php
+   http://www.gnu.org/licenses/gpl.html
+ ==============================================================================
+*/
+.popup_info {
+	display: inline;
+}
+
+.popup_info .infotext_trigger {
+	cursor: pointer;
+}
+
+.infotext {
+	width: 600px;
+	border: 1px solid #666;
+	background-color: white;
+	padding: .5em;
+}
+
+.infoVisible{
+	width: 600px;
+}
+
+ul#feedreading_blogroll_option_tab_heads{
+	margin: 0;
+	padding-top: 5px;
+	height: 32px;
+	border-bottom: 1px solid #2683AE;
+}
+
+ul#feedreading_blogroll_option_tab_heads li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: block;
+	float: left;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+ul#feedreading_blogroll_option_tab_heads li span a:hover {
+	background-color: lightgray;
+}
+
+ul#feedreading_blogroll_option_tab_heads li span a {
+	text-decoration: none;
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 7px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 3px;
+	text-decoration: none;
+	margin-right: 3px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+}
+
+ul#feedreading_blogroll_option_tab_heads li.ui-tabs-selected span a {
+	background-image: none;
+	background-color: #2683AE;
+	color: #fff;
+}
+
+ul#categoryOrderList li {
+	cursor: pointer;
+}
+
+ul#categoryOrderList li, ul#singlewidgetlist li {
+	width: 300px;
+	background-color: lightgray;
+	border: 1px solid darkgray;
+	color: #555;
+	padding: .5em;
+	margin: .5em;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+}
+
+ul#categoryOrderList li.inblogroll, ul#singlewidgetlist li {
+	background-color: #2683AE;
+	color: white;
+	font-weight: bold;
+}
+
+.feedreading_warning {
+	color: orange;
+	font-weight: bold;
+}
+
+.feedreading_error {
+	color: red;
+	font-weight: bold;
+}
+
+.feedreading_okay {
+	color: green;
+	font-weight: bold;
+}
+
+div#devbloglinks{
+	margin:1.5em 0;
+}
+div#devbloglinks ul{
+	border-top: 1px solid #2683AE;
+}
+div#devbloglinks ul li {
+	display: inline;
+	margin: 0 1em;
+}

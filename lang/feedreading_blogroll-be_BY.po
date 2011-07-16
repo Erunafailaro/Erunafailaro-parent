@@ -1,0 +1,535 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Social Blogroll\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/feed-reading-blogroll\n"
+"POT-Creation-Date: 2010-04-23 17:56+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jan Weinschenker <jan.weinschenker@web.de>\n"
+"Language-Team: ilyuha <iliamrv@ya.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=n != 1;\n"
+"X-Poedit-Language: Belarusian\n"
+"X-Poedit-Country: BELARUS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_c;_e;__ngettext:1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: d:\\wordpress\\plugins\\feed-reading-blogroll\n"
+"X-Poedit-SearchPath-0: d:\\wordpress\\plugins\\feed-reading-blogroll\n"
+
+#: feedreading_blogroll.php:119
+#: feedreading_blogroll.php:1197
+#: feedreading_blogroll.php:2468
+#: feedreading_blogroll.php:2500
+msgid "This widget adds the WP Social Blogroll to your sidebar."
+msgstr ""
+
+#: feedreading_blogroll.php:119
+#: feedreading_blogroll.php:1197
+msgid "It can display multiple link categories. Only a single instance of this widget can be added to your sidebars."
+msgstr ""
+
+#: feedreading_blogroll.php:159
+msgid "Settings"
+msgstr "Налады"
+
+#: feedreading_blogroll.php:532
+msgid "Settings saved."
+msgstr "Налады захаваны"
+
+#: feedreading_blogroll.php:568
+#: feedreading_blogroll.php:2541
+#, php-format
+msgid "You are currently using WordPress version %s. Please be informed, that future versions of the WP Social Blogroll plugin will no longer support this version of WordPress. I recommend to upgrade your WordPress-installation to <a href=\"http://wordpress.org\">the latest version</a>."
+msgstr ""
+
+#: feedreading_blogroll.php:578
+#: feedreading_blogroll.php:2534
+#, php-format
+msgid "If you have just upgraded to WordPress 2.8, you will have to add the Widget of the WP Social Blogroll plugin to your sidebar again. <a href=\"%s\">Please go to the Widget-Settings-Page</a> to add the widget to your sidebar."
+msgstr ""
+
+#: feedreading_blogroll.php:590
+msgid "JavaScript-file <strong>and</strong> content-directory are writable. This is no longer necessary. You should make the content-directory read-only (chmod 755) now for security-reasons.</p><p>This plugin requires <strong>only</strong> JavaScript-file itself to be writable."
+msgstr "JavaScript-файл, і кантэнт-каталог з'яўляюцца запісы. Гэта не з'яўляецца неабходным. Вы павінны зрабіць кантэнт-каталог толькі для чытання (Chmod 755), у наш час па меркаваннях бяспекі. Гэта ўбудова патрабуе толькі JavaScript-файл, каб яго запісы.JavaScript-filen <strong>og</strong> wp-content-mappen er ikke skrivebeskyttet. Det er ikke l?ngere n?dvendigt. Du b?r skrivebeskytte (chmod 755) indhold-mappen (typisk wp-content) nu af hensyn til sikkerheden.</p><p>Dette plugin kr?ver <strong>kun</strong>, at selve JavaScript-filen ikke er skrivebeskyttet."
+
+#: feedreading_blogroll.php:597
+msgid "Content directory and/or JavaScript-file not writable!"
+msgstr "Дырэкторыя для JavaScript-file  недаступная для запісу!"
+
+#: feedreading_blogroll.php:605
+msgid "Developer&rsquo;s Blog"
+msgstr ""
+
+#: feedreading_blogroll.php:606
+msgid "Subscribe to the Developer&rsquo;s RSS-Feed"
+msgstr ""
+
+#: feedreading_blogroll.php:606
+msgid "RSS-Feed"
+msgstr ""
+
+#: feedreading_blogroll.php:610
+msgid "Plugin Home"
+msgstr "Хатняя старонка ўбудовы"
+
+#: feedreading_blogroll.php:613
+msgid "Download latest Version"
+msgstr "Запампаваць апошнюю версію"
+
+#: feedreading_blogroll.php:617
+msgid "Supportforum"
+msgstr "Форум"
+
+#: feedreading_blogroll.php:621
+#: feedreading_blogroll.php:811
+msgid "Help"
+msgstr "Дапамога"
+
+#: feedreading_blogroll.php:621
+msgid "Wiki"
+msgstr ""
+
+#: feedreading_blogroll.php:625
+msgid "Facebook"
+msgstr ""
+
+#: feedreading_blogroll.php:633
+#: feedreading_blogroll.php:640
+#: feedreading_blogroll.php:650
+#: feedreading_blogroll.php:726
+#: feedreading_blogroll.php:818
+#: feedreading_blogroll.php:906
+#: feedreading_blogroll.php:912
+#: feedreading_blogroll.php:1083
+#: feedreading_blogroll.php:1135
+#: feedreading_blogroll.php:1201
+#: feedreading_blogroll.php:2505
+msgid "Options"
+msgstr "Налады"
+
+#: feedreading_blogroll.php:634
+#: feedreading_blogroll.php:1130
+msgid "URL-Check"
+msgstr "Праверка URL'ов"
+
+#: feedreading_blogroll.php:635
+#: feedreading_blogroll.php:1081
+msgid "JavaScript"
+msgstr "JavaScript "
+
+#: feedreading_blogroll.php:636
+#: feedreading_blogroll.php:1109
+msgid "News"
+msgstr "Навіны"
+
+#: feedreading_blogroll.php:648
+#: feedreading_blogroll.php:1077
+msgid "Save Changes"
+msgstr "Захаваць налады"
+
+#: feedreading_blogroll.php:653
+msgid "Google API Key"
+msgstr "Google API ключ"
+
+#: feedreading_blogroll.php:656
+msgid "This field is required!"
+msgstr "Гэта поле абавязкова!"
+
+#: feedreading_blogroll.php:660
+msgid "Blogroll Title for sidebar widget"
+msgstr "Загаловак блогролла для сайдбара"
+
+#: feedreading_blogroll.php:669
+msgid "Display title above blogroll"
+msgstr "Паказваць загаловак для блогролла"
+
+#: feedreading_blogroll.php:673
+msgid "Use Google Feed Discovery"
+msgstr "Выкарыстоўваць Google Feed Discovery"
+
+#: feedreading_blogroll.php:678
+#: feedreading_blogroll.php:692
+#: feedreading_blogroll.php:715
+#: feedreading_blogroll.php:751
+#: feedreading_blogroll.php:782
+#: feedreading_blogroll.php:807
+#: feedreading_blogroll.php:866
+#: feedreading_blogroll.php:896
+#: feedreading_blogroll.php:962
+#: feedreading_blogroll.php:990
+#: feedreading_blogroll.php:1031
+msgid "Click me for help"
+msgstr "Націсніце сюды для дапамогі"
+
+#: feedreading_blogroll.php:681
+msgid "Automatic Feed Discovery is a service by Google which will try to find the correct feeds that belong to your bookmarks. When using Feed Discovery, you do not need to save extra feed-URLs along with your bookmarks. If you have saved a feed-URL for a bookmark, the plugin will always use the saved feed for that particular bookmark instead of Google Feed Discovery."
+msgstr "Automatic Feed Discovery уяўляе сабою службу Google, якая будзе спрабаваць знайсці правільныя каналы, якія прыналежаць да закладак. Калі вы захавалі URL-канал для закладкі, убудова будзе заўсёды выкарыстоўваць захаваны канал на дадзенай пэўнай закладкі  Google Feed Discovery."
+
+#: feedreading_blogroll.php:687
+msgid "Use Google Favicon Discovery"
+msgstr "Выкарыстоўваць Google Favicon Discovery"
+
+#: feedreading_blogroll.php:695
+msgid "Automatic Favicon Discovery is a service by Google which will try to find the correct favicons that belong to your bookmarks. When using Favicon Discovery, you do not need to save extra icon-URLs along with your bookmarks. If you have saved a icon-URL for a bookmark, the plugin will always use the saved icon for that particular bookmark instead of Google Favicon Discovery."
+msgstr ""
+
+#: feedreading_blogroll.php:703
+msgid "JavaScript loading in"
+msgstr ""
+
+#: feedreading_blogroll.php:710
+msgid "Pageheader"
+msgstr ""
+
+#: feedreading_blogroll.php:710
+#: feedreading_blogroll.php:882
+msgid "Default"
+msgstr "Па змаўчанні"
+
+#: feedreading_blogroll.php:713
+msgid "Pagefooter"
+msgstr ""
+
+#: feedreading_blogroll.php:718
+msgid "Loading of the JavaScript from your blog&rsquo;s header is better for the compatibility, while loading it from the footer is better for the performance."
+msgstr ""
+
+#: feedreading_blogroll.php:725
+#: feedreading_blogroll.php:2514
+msgid "Link categories"
+msgstr "Катэгорыі спасылак"
+
+#: feedreading_blogroll.php:728
+msgid "Categories"
+msgstr "Катэгорыі"
+
+#: feedreading_blogroll.php:754
+msgid "Add a category to your blogroll by activating its checkbox."
+msgstr "Дадаць катэгорыю ў вашым блогу, актываваўшы гэты сцяжок."
+
+#: feedreading_blogroll.php:755
+msgid "Use drag and drop to reorder the categories, then save the changes with the button above."
+msgstr "Выкарыстоўвайце перацягвання для змены парадку катэгорый, затым захаваеце змены з дапамогай кнопкі вышэй."
+
+#: feedreading_blogroll.php:768
+msgid "Single Category Widgets"
+msgstr ""
+
+#: feedreading_blogroll.php:777
+msgid "Widget"
+msgstr ""
+
+#: feedreading_blogroll.php:785
+msgid "You have added these widgets to your sidebar from the Widget-Panel. There, you can edit the widget-titles and the order of the widgets."
+msgstr ""
+
+#: feedreading_blogroll.php:793
+msgid "Group bookmarks by category"
+msgstr "Групаваць закладкі па катэгорыях"
+
+#: feedreading_blogroll.php:802
+msgid "Enable Linkpage"
+msgstr ""
+
+#: feedreading_blogroll.php:810
+msgid "Enable this option, if you are using the blogroll on a linkpage."
+msgstr ""
+
+#: feedreading_blogroll.php:817
+msgid "Sorting"
+msgstr "Сартаванне"
+
+#: feedreading_blogroll.php:820
+msgid "Order bookmarks by"
+msgstr "Сартаваць закладкі па"
+
+#: feedreading_blogroll.php:852
+msgid "ascending"
+msgstr "узыходны"
+
+#: feedreading_blogroll.php:856
+msgid "descending"
+msgstr "па змяншэнні"
+
+#: feedreading_blogroll.php:861
+msgid "Enable JavaScript-sorting"
+msgstr "Уключыць JavaScript-сартаванне"
+
+#: feedreading_blogroll.php:869
+msgid "JavaScript-sorting allows sorting by &quot;latest update&quot;."
+msgstr "JavaScript-сартаванне дазваляе сартаванне па &quot;апошняму абнаўленню&quot;."
+
+#: feedreading_blogroll.php:875
+msgid "JavaScript-sorting timeout"
+msgstr "Таймаўт JavaScript-сартаванні"
+
+#: feedreading_blogroll.php:882
+#: feedreading_blogroll.php:885
+#: feedreading_blogroll.php:888
+#: feedreading_blogroll.php:891
+#: feedreading_blogroll.php:894
+msgid "Seconds"
+msgstr "секунд"
+
+#: feedreading_blogroll.php:899
+msgid "Try to sort the blogroll with JavaScript for this amount of seconds."
+msgstr "Паспрабуйце разабрацца ў блогу з дапамогай JavaScript для гэтай колькасці секунд."
+
+#: feedreading_blogroll.php:905
+msgid "Display Options"
+msgstr "Налады адлюстравання"
+
+#: feedreading_blogroll.php:908
+msgid "Style"
+msgstr "Стыль"
+
+#: feedreading_blogroll.php:917
+msgid "Minimal"
+msgstr "Мінімальны"
+
+#: feedreading_blogroll.php:919
+msgid "Displays the blogname and age of latest article."
+msgstr "Адлюстроўваць імя блога і ўзрост апошняга артыкула."
+
+#: feedreading_blogroll.php:925
+msgid "Classic"
+msgstr "Класічны"
+
+#: feedreading_blogroll.php:927
+msgid "Displays the blogname and below that in one single line the age of the latest article and its title."
+msgstr "Адлюстроўвае імя блога і ніжэй, што ў адным радку з узрост апошняга артыкула і яго назвай."
+
+#: feedreading_blogroll.php:933
+msgid "Blogger(TM)"
+msgstr "Blogger(TM) "
+
+#: feedreading_blogroll.php:935
+msgid "Displays the blogname, the age of the latest article and its title. Each element in its own line."
+msgstr "Адлюстроўвае імя блога, узрост апошняга артыкула, і яго назва. Кожны элемент у сваю ўласную лінію."
+
+#: feedreading_blogroll.php:941
+msgid "Banners"
+msgstr "Банары"
+
+#: feedreading_blogroll.php:943
+msgid "The bookmark is displayed as a banner-link. Below the image the age of the latest article and its title are displayed."
+msgstr "Закладка адлюстроўваецца як спасылка банара.Пад малюнкам адлюстроўваецца ўзрост апошняга артыкула і яе назва ."
+
+#: feedreading_blogroll.php:949
+msgid "Rolling"
+msgstr ""
+
+#: feedreading_blogroll.php:951
+msgid "A very compact, animated style. All bookmarks will show up, but only five of them at a time. Every few seconds, a new bookmark will fade in at the top, while another one will fade out at the bottom of the blogroll."
+msgstr ""
+
+#: feedreading_blogroll.php:958
+msgid "Max number of bookmarks per category"
+msgstr "Максімальная колькасць закладак на катэгорыю"
+
+#: feedreading_blogroll.php:961
+msgid "Enter a positive integer without point or other special characters. Examples: 3, 5, 10, 15, ..."
+msgstr "Увядзіце дадатнае цэлае без кропкі ці іншыя адмысловыя знакі. Прыклад: 3, 5, 10, 15, ..."
+
+#: feedreading_blogroll.php:965
+msgid "Enter the maximum number of bookmarks that should be visible in each category. Leave the field empty, if you want all bookmarks to be displayed."
+msgstr "Увядзіце максімальную колькасць закладак, якія павінны быць бачныя ў кожнай катэгорыі. Пакіньце поле пустым, калі вы жадаеце, каб усе закладкі адлюстроўваліся."
+
+#: feedreading_blogroll.php:966
+msgid "If JavaScript-sorting is active, the limiting will be applied after the JavaScript-sorting timeout."
+msgstr "Калі JavaScript-сартаванне актыўная, ліміт будзе ўжывацца пасля таго, як таймаўту JavaScript міне ."
+
+#: feedreading_blogroll.php:972
+msgid "Custom location for stylesheets"
+msgstr "Выкарыстоўваць месца для CSS"
+
+#: feedreading_blogroll.php:981
+msgid "No custom location was specified."
+msgstr "Не паказана месцазнаходжанне."
+
+#: feedreading_blogroll.php:983
+msgid "Using default instead: "
+msgstr "Выкарыстоўваць па змаўчанні замест:"
+
+#: feedreading_blogroll.php:993
+msgid "Examples: &quot;http://yourblog.com/wp-content&quot; or &quot;http://yourblog.com&quot; or &quot;http://yourblog.com/wp-content/css&quot;."
+msgstr "Прыклады: &quot;http://yourblog.com/wp-content&quot; ці &quot;http://yourblog.com&quot; ці &quot;http://yourblog.com/wp-content/css&quot;."
+
+#: feedreading_blogroll.php:996
+msgid "If you modify the file feedreading_blogroll.css, it is recommended to move it to another directory (e.g. /wp-content) to prevent it from getting lost during a plugin-update."
+msgstr "Калі вы зменіце файл feedreading_blogroll.css, рэкамендуецца перамясціць яго ў іншую тэчку (напрыклад, /wp-content)."
+
+#: feedreading_blogroll.php:1002
+msgid "Default icon"
+msgstr "Стандартны абразок"
+
+#: feedreading_blogroll.php:1009
+msgid "CSS class for links"
+msgstr "CSS-клас для спасылак"
+
+#: feedreading_blogroll.php:1016
+msgid "Show update-information"
+msgstr "Паказаць інфармацыю пра абнаўленне"
+
+#: feedreading_blogroll.php:1021
+#: feedreading_blogroll.php:1410
+#: feedreading_blogroll.php:1461
+#: feedreading_blogroll.php:1504
+#: feedreading_blogroll.php:1556
+#: feedreading_blogroll.php:1603
+#: feedreading_blogroll.php:1653
+msgid "last change"
+msgstr "апошняя змена"
+
+#: feedreading_blogroll.php:1021
+#: feedreading_blogroll.php:1770
+#, php-format
+msgid "%d hrs ago"
+msgstr "%d гадзін назад"
+
+#: feedreading_blogroll.php:1021
+#: feedreading_blogroll.php:1766
+#, php-format
+msgid "%d days ago"
+msgstr "%d дзён назад"
+
+#: feedreading_blogroll.php:1021
+#: feedreading_blogroll.php:1768
+msgid "yesterday"
+msgstr "учора"
+
+#: feedreading_blogroll.php:1025
+msgid "Show name of author"
+msgstr "Показвать імя аўтара"
+
+#: feedreading_blogroll.php:1030
+msgid "This option requires the enabled option <em>Show update-information</em>."
+msgstr "Гэты варыянт патрабуе ўключэння опцыі <em>Паказваць абнаўленні інфармацыі</em>."
+
+#: feedreading_blogroll.php:1034
+msgid "Some blogs do not provide the author&rsquo;s name in their feed. In those cases, the author&rsquo;s name cannot be shown in the blogroll."
+msgstr "Некаторыя блогі не ўтрымоўваюць імя аўтара ў іх стужцы. У тых выпадках, імя аўтара не можа быць паказана ў блогу."
+
+#: feedreading_blogroll.php:1040
+#: feedreading_blogroll.php:1055
+msgid "Show title of latest post"
+msgstr "Паказваць загаловак апошняга паста"
+
+#: feedreading_blogroll.php:1048
+msgid "Bookmark tooltip"
+msgstr ""
+
+#: feedreading_blogroll.php:1053
+msgid "No tooltip"
+msgstr ""
+
+#: feedreading_blogroll.php:1054
+msgid "Show blog description from feed"
+msgstr ""
+
+#: feedreading_blogroll.php:1060
+msgid "Show icon"
+msgstr "Паказаць абразок"
+
+#: feedreading_blogroll.php:1068
+msgid "Enable bookmark preview"
+msgstr "Уключыць прадагляд закладак"
+
+#: feedreading_blogroll.php:1085
+msgid "JavaScript file"
+msgstr "JavaScript-файл"
+
+#: feedreading_blogroll.php:1087
+msgid "This file renders article-titles and date-information into your blogroll. It is rebuild automatically by the plugin each time your bookmarks or the options of this plugin change. You can rebuild it manually by clicking the button below."
+msgstr "Гэты файл робіць артыкулу назвы і даты і інфармацыю ў ваш блог. Гэта аўтаматычна аднаўляе ўбудова кожных разоў, калі вашы закладкі ці налады гэтай убудовы зменены. Вы можаце аднавіць гэта ўручную, націснуўшы на кнопку ніжэй."
+
+#: feedreading_blogroll.php:1089
+msgid "Last rebuild:"
+msgstr "Апошняя перабудова:"
+
+#: feedreading_blogroll.php:1090
+#: feedreading_blogroll.php:1678
+msgid "dS F, Y h:i:s a"
+msgstr "j. F Y H.i.s "
+
+#: feedreading_blogroll.php:1095
+msgid "Rebuild file"
+msgstr "Перабудаваць файл"
+
+#: feedreading_blogroll.php:1111
+msgid "You are using version"
+msgstr "Вы выкарыстоўваеце версію"
+
+#: feedreading_blogroll.php:1132
+msgid "This section will tell you, if RSS-URLs or image-URLs are missing. Update-information in the blogroll can only be displayed if you have saved the necessary URLs."
+msgstr "Гэта частка апавясцяць вас, калі RSS-URL-адрасы ці URL малюнкі адсутнічаюць. Update-інфармацыя ў блогу можа быць толькі калі вы захавалі неабходныя URLы."
+
+#: feedreading_blogroll.php:1149
+msgid "Web Address"
+msgstr "Адрас"
+
+#: feedreading_blogroll.php:1151
+msgid "RSS Address"
+msgstr "RSS-адрас"
+
+#: feedreading_blogroll.php:1155
+msgid "via Google Feed Discovery"
+msgstr "праз Google Feed Discovery"
+
+#: feedreading_blogroll.php:1157
+#: feedreading_blogroll.php:1167
+msgid "Warning"
+msgstr "Увага"
+
+#: feedreading_blogroll.php:1157
+msgid "No RSS address! Please provide a feed-url for this bookmark!"
+msgstr "Не RSS адрасы! Пакажыце URL-канал для гэтай закладкі!"
+
+#: feedreading_blogroll.php:1160
+#: feedreading_blogroll.php:1170
+msgid "Edit Link"
+msgstr "Рэдагаваць спасылку"
+
+#: feedreading_blogroll.php:1163
+msgid "Image Address"
+msgstr "Адрас малюнка"
+
+#: feedreading_blogroll.php:1167
+msgid "No image address! If you have configured a default icon, it will be used."
+msgstr "Няма адрасу малюнка! Калі вы наладзілі значокпо змаўчанню, ён будзе выкарыстоўвацца."
+
+#: feedreading_blogroll.php:1367
+#: feedreading_blogroll.php:1416
+#: feedreading_blogroll.php:1509
+#: feedreading_blogroll.php:1560
+#: feedreading_blogroll.php:1607
+#: feedreading_blogroll.php:1657
+msgid "Close preview"
+msgstr "Зачыніць прэв'ю"
+
+#: feedreading_blogroll.php:1772
+msgid "in the last hour"
+msgstr "гадзіна назад"
+
+#: feedreading_blogroll.php:1774
+msgid "just recently"
+msgstr "зусім нядаўна"
+
+# 'by' from '(written) 3 hours ago by (name of author)'
+#: feedreading_blogroll.php:1840
+msgid "by"
+msgstr " "
+
+#: feedreading_blogroll.php:2468
+#: feedreading_blogroll.php:2500
+msgid "It can display one single link category. An arbitrary number of instances of this widget can be added to your sidebars."
+msgstr ""
+
+#: feedreading_blogroll.php:2508
+msgid "Title:"
+msgstr ""
+
+#~ msgid "widget_feedreading_blogroll widget description "
+#~ msgstr "апісанне виджета widget_feedreading_blogroll"
+

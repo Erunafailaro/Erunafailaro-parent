@@ -1,0 +1,603 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Social Blogroll in italiano\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/feed-reading-blogroll\n"
+"POT-Creation-Date: 2010-04-23 17:56+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ramerta Grup <admin@ramerta.com>\n"
+"Language-Team: Ramerta Grup | http://ramerta.com/ <admin@ramerta.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Turkish\n"
+"X-Poedit-Country: TURKEY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: feedreading_blogroll.php:119
+#: feedreading_blogroll.php:1197
+#: feedreading_blogroll.php:2468
+#: feedreading_blogroll.php:2500
+msgid "This widget adds the WP Social Blogroll to your sidebar."
+msgstr "Bu bileşen WP Social Blogrollu yan bileşen çubuğuna ekler."
+
+#: feedreading_blogroll.php:119
+#: feedreading_blogroll.php:1197
+msgid "It can display multiple link categories. Only a single instance of this widget can be added to your sidebars."
+msgstr "Birden çok bağlantı kategorisini gösterebilir. Bu bileşenden sadece bir tane kullanabilirsiniz."
+
+#: feedreading_blogroll.php:159
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: feedreading_blogroll.php:532
+msgid "Settings saved."
+msgstr "Ayarlar kaydedildi."
+
+# maybe use the link http://tr.wordpress.org in translation
+#: feedreading_blogroll.php:568
+#: feedreading_blogroll.php:2541
+#, php-format
+msgid "You are currently using WordPress version %s. Please be informed, that future versions of the WP Social Blogroll plugin will no longer support this version of WordPress. I recommend to upgrade your WordPress-installation to <a href=\"http://wordpress.org\">the latest version</a>."
+msgstr "Şu anda Wordpress %s sürümünü kullanıyorsunuz. WP Social Blogroll eklentisinin sonraki sürümleri bu Wordpress sürümünü desteklemeyecektir. Wordpress sürümünüzü <a href=\"http://wordpress.org\">en güncel sürüme</a>  yükseltmeniz önerilir."
+
+#: feedreading_blogroll.php:578
+#: feedreading_blogroll.php:2534
+#, php-format
+msgid "If you have just upgraded to WordPress 2.8, you will have to add the Widget of the WP Social Blogroll plugin to your sidebar again. <a href=\"%s\">Please go to the Widget-Settings-Page</a> to add the widget to your sidebar."
+msgstr "Eğer Wordpress 2.8'e yeni güncellediyseniz, sayfa yan menülerine (bileşenler kısmı) WP Social Blogrollu tekrar eklemeniz gerekiyor. Bu işlemi <a href=\"%s\">Bileşen ayar sayfasında</a> yapabilirsiniz."
+
+#: feedreading_blogroll.php:590
+msgid "JavaScript-file <strong>and</strong> content-directory are writable. This is no longer necessary. You should make the content-directory read-only (chmod 755) now for security-reasons.</p><p>This plugin requires <strong>only</strong> JavaScript-file itself to be writable."
+msgstr "JavaScript-dosyası <strong>ve</strong> içerik klasörü yazılabilir durumda. Bu artık gerekmiyor. Güvenlik sebebiyle içerik klasörünü salt-okunur yapmalısınız (chmod 755).</p><p>Bu eklenti <strong>sadece</strong> JavaScript-dosyasının kendisinin yazılabilir olmasını gerektirir."
+
+#: feedreading_blogroll.php:597
+msgid "Content directory and/or JavaScript-file not writable!"
+msgstr "İçerik klasörü ve/veyaz JavaScript-dosyası yazılabilir değil!"
+
+#: feedreading_blogroll.php:605
+msgid "Developer&rsquo;s Blog"
+msgstr "Geliştiricinin Blogu"
+
+#: feedreading_blogroll.php:606
+msgid "Subscribe to the Developer&rsquo;s RSS-Feed"
+msgstr "Geliştiricinin RSS akışına abone ol."
+
+#: feedreading_blogroll.php:606
+msgid "RSS-Feed"
+msgstr "RSS-Akışı"
+
+#: feedreading_blogroll.php:610
+msgid "Plugin Home"
+msgstr "Eklenti Anasayfa"
+
+#: feedreading_blogroll.php:613
+msgid "Download latest Version"
+msgstr "Son sürümü indir"
+
+#: feedreading_blogroll.php:617
+msgid "Supportforum"
+msgstr "Destek forumu"
+
+#: feedreading_blogroll.php:621
+#: feedreading_blogroll.php:811
+msgid "Help"
+msgstr "Yardım"
+
+#: feedreading_blogroll.php:621
+msgid "Wiki"
+msgstr "Wiki"
+
+#: feedreading_blogroll.php:625
+msgid "Facebook"
+msgstr "Facebook"
+
+#: feedreading_blogroll.php:633
+#: feedreading_blogroll.php:640
+#: feedreading_blogroll.php:650
+#: feedreading_blogroll.php:726
+#: feedreading_blogroll.php:818
+#: feedreading_blogroll.php:906
+#: feedreading_blogroll.php:912
+#: feedreading_blogroll.php:1083
+#: feedreading_blogroll.php:1135
+#: feedreading_blogroll.php:1201
+#: feedreading_blogroll.php:2505
+msgid "Options"
+msgstr "Seçenekler"
+
+#: feedreading_blogroll.php:634
+#: feedreading_blogroll.php:1130
+msgid "URL-Check"
+msgstr "URL-Kontrolü"
+
+#: feedreading_blogroll.php:635
+#: feedreading_blogroll.php:1081
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: feedreading_blogroll.php:636
+#: feedreading_blogroll.php:1109
+msgid "News"
+msgstr "Haberler"
+
+#: feedreading_blogroll.php:648
+#: feedreading_blogroll.php:1077
+msgid "Save Changes"
+msgstr "Değişiklikleri kaydet"
+
+#: feedreading_blogroll.php:653
+msgid "Google API Key"
+msgstr "Google API anahtarı"
+
+#: feedreading_blogroll.php:656
+msgid "This field is required!"
+msgstr "Bu alanı doldurmanız gerekiyor!"
+
+#: feedreading_blogroll.php:660
+msgid "Blogroll Title for sidebar widget"
+msgstr "Yanmenü bileşenleri için Blogroll Başlığı"
+
+#: feedreading_blogroll.php:669
+msgid "Display title above blogroll"
+msgstr "Blogroll üzerinde başlığı görüntüle"
+
+#: feedreading_blogroll.php:673
+msgid "Use Google Feed Discovery"
+msgstr "Google Otomatik Akış Bulucusunu kullan"
+
+#: feedreading_blogroll.php:678
+#: feedreading_blogroll.php:692
+#: feedreading_blogroll.php:715
+#: feedreading_blogroll.php:751
+#: feedreading_blogroll.php:782
+#: feedreading_blogroll.php:807
+#: feedreading_blogroll.php:866
+#: feedreading_blogroll.php:896
+#: feedreading_blogroll.php:962
+#: feedreading_blogroll.php:990
+#: feedreading_blogroll.php:1031
+msgid "Click me for help"
+msgstr "Yardım için tıklayın."
+
+#: feedreading_blogroll.php:681
+msgid "Automatic Feed Discovery is a service by Google which will try to find the correct feeds that belong to your bookmarks. When using Feed Discovery, you do not need to save extra feed-URLs along with your bookmarks. If you have saved a feed-URL for a bookmark, the plugin will always use the saved feed for that particular bookmark instead of Google Feed Discovery."
+msgstr "Otomatik Akış Bulucusu Google tarafından sağlanan bir servistir. Bu servis, girdiğiniz yer imlerine ait olan doğru akış adresini bulmaya yarar. Akış Bulucusunu kullanırken, listenize girdiğiniz yer imlerine ait olan RSS adresklerini de fazladan girmenize gerek kalmaz. Yine de, eğer bir akış adresi girerseniz, sizin girdiğiniz adres kullanılacaktır."
+
+#: feedreading_blogroll.php:687
+msgid "Use Google Favicon Discovery"
+msgstr "Google Faicon Keşfediciyi Kullan"
+
+#: feedreading_blogroll.php:695
+msgid "Automatic Favicon Discovery is a service by Google which will try to find the correct favicons that belong to your bookmarks. When using Favicon Discovery, you do not need to save extra icon-URLs along with your bookmarks. If you have saved a icon-URL for a bookmark, the plugin will always use the saved icon for that particular bookmark instead of Google Favicon Discovery."
+msgstr "Otomatik Favicon Keşfedici Google tarafından verilen bir hizmettir. Google sizin bookmarkınıza doğru faviconu bulmayı deneyecektir. Favicon Keşfediciyi kullandığınız zaman, ekstra olarak bookmarkınıza ikon-URL'si girmeniz gerekmeyecektir. Eğer bookmarkınız için ekstra olarak bir ikon-URL'si girdiyseniz, bu eklenti sürekli olarak Google Favicon Keşfedicisi yerine sizin kaydettiğiniz ikonu kullanacaktır."
+
+#: feedreading_blogroll.php:703
+msgid "JavaScript loading in"
+msgstr "JavaScript yükleniyor:"
+
+#: feedreading_blogroll.php:710
+msgid "Pageheader"
+msgstr "Sayfa başı (header)"
+
+#: feedreading_blogroll.php:710
+#: feedreading_blogroll.php:882
+msgid "Default"
+msgstr "Öntanımlı"
+
+#: feedreading_blogroll.php:713
+msgid "Pagefooter"
+msgstr "Sayfa sonu (footer)"
+
+#: feedreading_blogroll.php:718
+msgid "Loading of the JavaScript from your blog&rsquo;s header is better for the compatibility, while loading it from the footer is better for the performance."
+msgstr "JavaScript blogunuzun sayfa başında olursa uyumluluk açısından daha iyi olur, sayfa sonunda olursa performans açısından daha iyi olur."
+
+#: feedreading_blogroll.php:725
+#: feedreading_blogroll.php:2514
+msgid "Link categories"
+msgstr "Bağlantı kategorileri"
+
+#: feedreading_blogroll.php:728
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: feedreading_blogroll.php:754
+msgid "Add a category to your blogroll by activating its checkbox."
+msgstr "Blogroll'da görünmesini istediğiniz kategorilerin yanındaki kutucuğa işaret koyun."
+
+#: feedreading_blogroll.php:755
+msgid "Use drag and drop to reorder the categories, then save the changes with the button above."
+msgstr "Sürükle-bırak ile kategorileri tekrar yerleştirip aşağıdaki tuşa basarak kaydedebilirsiniz."
+
+#: feedreading_blogroll.php:768
+msgid "Single Category Widgets"
+msgstr "Tekil kategori bileşenleri"
+
+#: feedreading_blogroll.php:777
+msgid "Widget"
+msgstr "Bileşen"
+
+#: feedreading_blogroll.php:785
+msgid "You have added these widgets to your sidebar from the Widget-Panel. There, you can edit the widget-titles and the order of the widgets."
+msgstr "Bileşen panelinden bu bileşenleri yan çubuğa eklediniz. Burada, bileşenlerin başlıklarını ve sıralamasını değiştirebilirsiniz."
+
+#: feedreading_blogroll.php:793
+msgid "Group bookmarks by category"
+msgstr "Yerimlerini kategorilere göre grupla"
+
+#: feedreading_blogroll.php:802
+msgid "Enable Linkpage"
+msgstr "Link Sayfasını Aktif Et"
+
+#: feedreading_blogroll.php:810
+msgid "Enable this option, if you are using the blogroll on a linkpage."
+msgstr "Eğer bir link sayfasında blogroll'u kullanıyorsanız, bu seçeneği aktif edin."
+
+#: feedreading_blogroll.php:817
+msgid "Sorting"
+msgstr "Sıralama"
+
+#: feedreading_blogroll.php:820
+msgid "Order bookmarks by"
+msgstr "Yerimlerini buna göre sırala:"
+
+#: feedreading_blogroll.php:852
+msgid "ascending"
+msgstr "artan"
+
+#: feedreading_blogroll.php:856
+msgid "descending"
+msgstr "azalan"
+
+#: feedreading_blogroll.php:861
+msgid "Enable JavaScript-sorting"
+msgstr "JavaScript sıralamayı aç"
+
+#: feedreading_blogroll.php:869
+msgid "JavaScript-sorting allows sorting by &quot;latest update&quot;."
+msgstr "JavaScript sıralaması &quot;son güncellenenen&quot;."
+
+#: feedreading_blogroll.php:875
+msgid "JavaScript-sorting timeout"
+msgstr "JavaScript sıralaması zaman aşımı"
+
+#: feedreading_blogroll.php:882
+#: feedreading_blogroll.php:885
+#: feedreading_blogroll.php:888
+#: feedreading_blogroll.php:891
+#: feedreading_blogroll.php:894
+msgid "Seconds"
+msgstr "Saniye"
+
+#: feedreading_blogroll.php:899
+msgid "Try to sort the blogroll with JavaScript for this amount of seconds."
+msgstr "Bağlantıları JavaScript ile şu kadar saniye sıralamaya çalış."
+
+#: feedreading_blogroll.php:905
+msgid "Display Options"
+msgstr "Görüntüleme Ayarları"
+
+#: feedreading_blogroll.php:908
+msgid "Style"
+msgstr "Tarz"
+
+#: feedreading_blogroll.php:917
+msgid "Minimal"
+msgstr "Yalın"
+
+#: feedreading_blogroll.php:919
+msgid "Displays the blogname and age of latest article."
+msgstr "Blog adı ve son yazının zamanını göster"
+
+#: feedreading_blogroll.php:925
+msgid "Classic"
+msgstr "Klasik"
+
+#: feedreading_blogroll.php:927
+msgid "Displays the blogname and below that in one single line the age of the latest article and its title."
+msgstr "Blog adını ve hemen altında son yazının yaşını ve başlığını gösterir."
+
+#: feedreading_blogroll.php:933
+msgid "Blogger(TM)"
+msgstr "Blogger(TM)"
+
+#: feedreading_blogroll.php:935
+msgid "Displays the blogname, the age of the latest article and its title. Each element in its own line."
+msgstr "Blog adını, son yazının zamanını ve başlığı; her öğeyi kendi satırında olacak şekilde gösterir."
+
+#: feedreading_blogroll.php:941
+msgid "Banners"
+msgstr "Afiş"
+
+#: feedreading_blogroll.php:943
+msgid "The bookmark is displayed as a banner-link. Below the image the age of the latest article and its title are displayed."
+msgstr "Yer imi, banner-bağlantı şeklinde gösterilir. Simgenin altında son yazının yaşı ve başlığı gösterilir."
+
+#: feedreading_blogroll.php:949
+msgid "Rolling"
+msgstr "Açılan"
+
+#: feedreading_blogroll.php:951
+msgid "A very compact, animated style. All bookmarks will show up, but only five of them at a time. Every few seconds, a new bookmark will fade in at the top, while another one will fade out at the bottom of the blogroll."
+msgstr "Çok sade, animasyonlu stil. Tüm bağlantılar, her seferde 5 tane olmak üzere gösterilir. Bir kaç saniyede bir en tepedeki bir bağlantı yok olurken, en alttan yeni bir tane gösterilir."
+
+#: feedreading_blogroll.php:958
+msgid "Max number of bookmarks per category"
+msgstr "Kategori başına gösterilecek azami yerimi sayısı."
+
+#: feedreading_blogroll.php:961
+msgid "Enter a positive integer without point or other special characters. Examples: 3, 5, 10, 15, ..."
+msgstr "Lütfen pozitif bir tamsayı girin (3, 5, 10, ...)"
+
+#: feedreading_blogroll.php:965
+msgid "Enter the maximum number of bookmarks that should be visible in each category. Leave the field empty, if you want all bookmarks to be displayed."
+msgstr "Her kategoriden görüntülenecek azami yerimi sayısını girin. Tümünün görüntülenmesi için burayı boş bırakın."
+
+#: feedreading_blogroll.php:966
+msgid "If JavaScript-sorting is active, the limiting will be applied after the JavaScript-sorting timeout."
+msgstr "JavaScript sıralama aktif ise, sınırlama JavaScript sıralama zaman aşımından sonra yapılacak."
+
+#: feedreading_blogroll.php:972
+msgid "Custom location for stylesheets"
+msgstr "Stil sayfaları için özel tanımlı yer"
+
+#: feedreading_blogroll.php:981
+msgid "No custom location was specified."
+msgstr "Özel yer tanımlanmadı."
+
+#: feedreading_blogroll.php:983
+msgid "Using default instead: "
+msgstr "Yerine öntanımlı kullanılacak:"
+
+#: feedreading_blogroll.php:993
+msgid "Examples: &quot;http://yourblog.com/wp-content&quot; or &quot;http://yourblog.com&quot; or &quot;http://yourblog.com/wp-content/css&quot;."
+msgstr "Örnekler: &quot;http://blogunuz.com/wp-content&quot; or &quot;http://blogunuz.com&quot; or &quot;http://blogunuz.com/wp-content/css&quot;."
+
+#: feedreading_blogroll.php:996
+msgid "If you modify the file feedreading_blogroll.css, it is recommended to move it to another directory (e.g. /wp-content) to prevent it from getting lost during a plugin-update."
+msgstr "Eğer feedreading_blogroll.css dosyasını değiştirirseniz, bu dosyayı başka bir klasöre (örneğin /wp-content) taşımanız tavsiye edilir. Bu sayede eklentinin güncellenmesi sırasında kaybolmasını engelleyebilirsiniz."
+
+#: feedreading_blogroll.php:1002
+msgid "Default icon"
+msgstr "Öntanımlı ikon"
+
+#: feedreading_blogroll.php:1009
+msgid "CSS class for links"
+msgstr "Bağlantılar için CSS sınıfı"
+
+#: feedreading_blogroll.php:1016
+msgid "Show update-information"
+msgstr "Güncelleme bilgisini göster"
+
+#: feedreading_blogroll.php:1021
+#: feedreading_blogroll.php:1410
+#: feedreading_blogroll.php:1461
+#: feedreading_blogroll.php:1504
+#: feedreading_blogroll.php:1556
+#: feedreading_blogroll.php:1603
+#: feedreading_blogroll.php:1653
+msgid "last change"
+msgstr "son değişiklik"
+
+#: feedreading_blogroll.php:1021
+#: feedreading_blogroll.php:1770
+#, php-format
+msgid "%d hrs ago"
+msgstr "%d saat önce"
+
+#: feedreading_blogroll.php:1021
+#: feedreading_blogroll.php:1766
+#, php-format
+msgid "%d days ago"
+msgstr "%d gün önce"
+
+#: feedreading_blogroll.php:1021
+#: feedreading_blogroll.php:1768
+msgid "yesterday"
+msgstr "dün"
+
+#: feedreading_blogroll.php:1025
+msgid "Show name of author"
+msgstr "Yazarın adını göster"
+
+#: feedreading_blogroll.php:1030
+msgid "This option requires the enabled option <em>Show update-information</em>."
+msgstr "Bu seçenek için <em>Güncelleştirme bilgisini göster</em> seçeneğini etkinleştirmelisiniz."
+
+#: feedreading_blogroll.php:1034
+msgid "Some blogs do not provide the author&rsquo;s name in their feed. In those cases, the author&rsquo;s name cannot be shown in the blogroll."
+msgstr "Bazı bloglar yazarlarının adlarını belirtmezler. Bu durumda isimler bloglistenizde görüntülenmeyecektir."
+
+#: feedreading_blogroll.php:1040
+#: feedreading_blogroll.php:1055
+msgid "Show title of latest post"
+msgstr "Son yayınlananın başlığını göster"
+
+#: feedreading_blogroll.php:1048
+msgid "Bookmark tooltip"
+msgstr "Yerimi yardım çubuğu"
+
+#: feedreading_blogroll.php:1053
+msgid "No tooltip"
+msgstr "Yardım çubuğu yok"
+
+#: feedreading_blogroll.php:1054
+msgid "Show blog description from feed"
+msgstr "Blog tanımını özet akışından göster"
+
+#: feedreading_blogroll.php:1060
+msgid "Show icon"
+msgstr "İkonu göster"
+
+#: feedreading_blogroll.php:1068
+msgid "Enable bookmark preview"
+msgstr "Yerimi göz atmasını aktifleştir"
+
+#: feedreading_blogroll.php:1085
+msgid "JavaScript file"
+msgstr "JavaScript dosyası"
+
+#: feedreading_blogroll.php:1087
+msgid "This file renders article-titles and date-information into your blogroll. It is rebuild automatically by the plugin each time your bookmarks or the options of this plugin change. You can rebuild it manually by clicking the button below."
+msgstr "Bu dosya yazı başlıklarını ve tarih bilgisini blog bağlantılarınıza ekler. Bağlantıları veya  ayarlarınızı her değiştirdiğinizde dosya otomatik olarak derlenir. Aşağıdaki tuşa basarak bu işlemi elle de gerçekleştirebilirsiniz."
+
+#: feedreading_blogroll.php:1089
+msgid "Last rebuild:"
+msgstr "Son derleme:"
+
+# a PHP-dateformat that is appropriate for your language
+# 'j.m.Y G:i:s' means: dd.mm.YYYY 23:59:59
+#: feedreading_blogroll.php:1090
+#: feedreading_blogroll.php:1678
+msgid "dS F, Y h:i:s a"
+msgstr "j.m.Y G:i:s"
+
+#: feedreading_blogroll.php:1095
+msgid "Rebuild file"
+msgstr "Dosyayı tekrar derle"
+
+#: feedreading_blogroll.php:1111
+msgid "You are using version"
+msgstr "Kullandığınız sürüm "
+
+#: feedreading_blogroll.php:1132
+msgid "This section will tell you, if RSS-URLs or image-URLs are missing. Update-information in the blogroll can only be displayed if you have saved the necessary URLs."
+msgstr "Bu kısımda eksik olan RSS-URL veya resim-URL'lerini görebilirsiniz. Blogroll'unuzda güncel bilgilerin görünmesi için URL'leri girmeniz gereklidir."
+
+#: feedreading_blogroll.php:1149
+msgid "Web Address"
+msgstr "Web adresi"
+
+#: feedreading_blogroll.php:1151
+msgid "RSS Address"
+msgstr "RSS Adresi"
+
+#: feedreading_blogroll.php:1155
+msgid "via Google Feed Discovery"
+msgstr "Google Otomatik Akış Bulucusunu kullanarak"
+
+#: feedreading_blogroll.php:1157
+#: feedreading_blogroll.php:1167
+msgid "Warning"
+msgstr "Dikkat"
+
+#: feedreading_blogroll.php:1157
+msgid "No RSS address! Please provide a feed-url for this bookmark!"
+msgstr "RSS adresi yok! Lütfen bu yerimi için besleme-adresi (url) belirtin."
+
+#: feedreading_blogroll.php:1160
+#: feedreading_blogroll.php:1170
+msgid "Edit Link"
+msgstr "Bağlantıyı düzenle"
+
+#: feedreading_blogroll.php:1163
+msgid "Image Address"
+msgstr "Resim Adresi"
+
+#: feedreading_blogroll.php:1167
+msgid "No image address! If you have configured a default icon, it will be used."
+msgstr "Resim (ikon) adresi yok! Eğer öntanımlı ikon belirttiyseniz bu kullanılacaktır."
+
+#: feedreading_blogroll.php:1367
+#: feedreading_blogroll.php:1416
+#: feedreading_blogroll.php:1509
+#: feedreading_blogroll.php:1560
+#: feedreading_blogroll.php:1607
+#: feedreading_blogroll.php:1657
+msgid "Close preview"
+msgstr "Önbakışı kapat"
+
+#: feedreading_blogroll.php:1772
+msgid "in the last hour"
+msgstr "bir saat önce"
+
+#: feedreading_blogroll.php:1774
+msgid "just recently"
+msgstr "az önce"
+
+# 'by' from '(written) 3 hours ago by (name of author)'
+#: feedreading_blogroll.php:1840
+msgid "by"
+msgstr "yazan"
+
+#: feedreading_blogroll.php:2468
+#: feedreading_blogroll.php:2500
+msgid "It can display one single link category. An arbitrary number of instances of this widget can be added to your sidebars."
+msgstr "Sadece tek bir kategori gösterir. Bundan istediğiniz kadarını bileşen çubuğunuza ekleyebilirsiniz."
+
+#: feedreading_blogroll.php:2508
+msgid "Title:"
+msgstr "Başlık:"
+
+#~ msgid "Arguments for getBookmarks()"
+#~ msgstr "getBookmarks() için argümanlar"
+
+#~ msgid "See Codex-documentation for this feature"
+#~ msgstr "Bu özellik için Codex dökümanlarına bakın"
+
+#~ msgid "days ago"
+#~ msgstr "gün önce"
+
+#~ msgid "day ago"
+#~ msgstr "gün önce"
+
+#~ msgid "hrs ago"
+#~ msgstr "saat önce"
+
+#~ msgid "hr ago"
+#~ msgstr "saat önce"
+
+#~ msgid ""
+#~ "Thank you for using the plugins <a href=\"http://simplepie.org/wiki/"
+#~ "plugins/wordpress/simplepie_core\">SimplePie Core</a> and <a href="
+#~ "\"http://simplepie.org/wiki/plugins/wordpress/"
+#~ "simplepie_plugin_for_wordpress\">SimplePie Plugin for WordPress</a>. They "
+#~ "provide better feed-reading-capabilities to the WP Social Blogroll. WP "
+#~ "Social Blogroll will use them automatically, as soon as they are "
+#~ "installed and activated."
+#~ msgstr ""
+#~ "Şu eklentileri kullandığınız için teşekkürler:<a href=\"http://simplepie."
+#~ "org/wiki/plugins/wordpress/simplepie_core\">SimplePie Core</a> ve <a href="
+#~ "\"http://simplepie.org/wiki/plugins/wordpress/"
+#~ "simplepie_plugin_for_wordpress\">SimplePie Plugin for WordPress</a>. Feed "
+#~ "reading Blogroll için daha iyi okuma imkanı sağlıyorlar. Bu eklentileri "
+#~ "kurup aktif hale getirdiğiniz anda, WP Social Blogroll bunları otomatik "
+#~ "olarak kullanacaktır."
+
+#~ msgid ""
+#~ "You do not have the plugins <a href=\"http://simplepie.org/wiki/plugins/"
+#~ "wordpress/simplepie_core\">SimplePie Core</a> and <a href=\"http://"
+#~ "simplepie.org/wiki/plugins/wordpress/simplepie_plugin_for_wordpress"
+#~ "\">SimplePie Plugin for WordPress</a> installed. They would provide "
+#~ "better feed-reading-capabilities to the WP Social Blogroll. I would "
+#~ "recommend to install bot plugins. WP Social Blogroll will use them "
+#~ "automatically, as soon as they are installed and activated."
+#~ msgstr ""
+#~ "Şu eklentiler sizde kurulu değil: <a href=\"http://simplepie.org/wiki/"
+#~ "plugins/wordpress/simplepie_core\">SimplePie Core</a> ve <a href=\"http://"
+#~ "simplepie.org/wiki/plugins/wordpress/simplepie_plugin_for_wordpress"
+#~ "\">SimplePie Plugin for WordPress</a> installed. Bu eklentiler sayesinde "
+#~ "WP Social Blogroll daha iyi okunurluğa sahip olacaktır. Her ikisini de "
+#~ "kurmanızı ve kullanmanızı öneririm."
+
+#~ msgid "File does not exist."
+#~ msgstr "Dosya bulunamadı."
+
+#~ msgid "most recent"
+#~ msgstr "en güncel"
+
+#~ msgid "oldest"
+#~ msgstr "en eski"
+
+#~ msgid "Sort by:"
+#~ msgstr "Buna göre sırala:"
+
+#~ msgid ""
+#~ "JavaScript-sorting allows your visitors to sort the bookmarks themselves "
+#~ "directly from the blogroll."
+#~ msgstr ""
+#~ "JavaScript ile ziyaretçileriniz bağlantıları doğrudan kendileri "
+#~ "sıralayabilir."
+
+#~ msgid "Custom category order"
+#~ msgstr "Özel tanımlı kategori sırası"

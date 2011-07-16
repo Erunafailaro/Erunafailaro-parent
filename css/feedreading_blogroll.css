@@ -1,0 +1,108 @@
+/**
+ Plugin Name: Feed reading Blogroll
+ Plugin URI: http://www.weinschenker.name/plugin-feed-reading-blogroll/
+ Description: This plugin lets you embed an enhanced blogroll that reads the feeds of your bookmarked sites.
+ Version: 1.5.7
+ Author: Jan Weinschenker
+ Author URI: http://www.weinschenker.name
+
+
+ Plugin: Copyright 2008  Jan Weinschenker  (email: kontakt@weinschenker.name)
+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+ ==============================================================================
+ Feed reading Blogroll uses the great JSMin
+
+ JSMin 1.1.1
+ jsmin.php - PHP implementation of Douglas Crockford's JSMin. 
+ Ryan Grove <ryan@wonko.com>
+ copyright 2002 Douglas Crockford <douglas@crockford.com> (jsmin.c)
+ copyright 2008 Ryan Grove <ryan@wonko.com> (PHP port)
+ license: http://opensource.org/licenses/mit-license.php MIT License
+ http://code.google.com/p/jsmin-php/
+ ==============================================================================
+ ==============================================================================
+ Feed reading Blogroll uses the great jQuery TinySort
+ jQuery TinySort - A plugin to sort child nodes by (sub) contents or attributes.
+
+ Dual licensed under the MIT and GPL licenses:
+   http://www.opensource.org/licenses/mit-license.php
+   http://www.gnu.org/licenses/gpl.html
+ ==============================================================================
+*/ /*
+ * all div-elements belonging to a bookmark
+ */
+li.feedreading_bookmark {
+	margin-bottom: 1em !important;
+}
+
+li.feedreading_bookmark div {
+	margin-left: 0 !important;
+}
+
+li.feedreading_bookmark p.frbl_last_posttitle {
+	margin: 0;
+	font-weight: bold;
+}
+
+li.feedreading_bookmark div abbr, li.feedreading_bookmark div small {
+	cursor: pointer;
+}
+
+li.feedreading_bookmark img.icon16px {
+	width: 16px;
+	height: 16px;
+}
+
+/*
+ * The whole blogroll-element
+ */
+#widget_feedreading_blogroll {
+	
+}
+
+/* ************************************************************* */
+	/* use the following definitions to define your own style        */
+	/* ************************************************************* */ /*
+ * every list-item from the blogroll
+ */
+li.feedreading_bookmark { /* margin-top: 1em; */
+	
+}
+
+/*
+ * Every icon in the blogroll
+ */
+li.feedreading_bookmark img {
+	border: 1px;
+}
+
+li.feedreading_bookmark a.feedreading_anchor {
+/*	font-family: Georgia,serif;
+	color:#4E443C;
+	font-variant: small-caps;
+	text-transform: none; 
+	font-weight: bold; 
+	margin-bottom: 0;*/
+}
+
+/*
+ * This should be fitting most themes. It should apply to the publication-age 
+ * displayed for each bookmark.
+ */
+div.lastPublicationDate { 
+	/* margin-left:2em; */
+}

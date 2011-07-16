@@ -1,0 +1,539 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Social Blogroll Swedish / på svenska\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/feed-reading-blogroll\n"
+"POT-Creation-Date: 2010-04-23 17:56+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jan Weinschenker <jan.weinschenker@web.de>\n"
+"Language-Team: Markus Wallgren <wordpress@wallgren.be>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=n != 1;\n"
+"X-Poedit-Language: Svenska\n"
+"X-Poedit-Country: SVERIGE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_c;_e;__ngettext:1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: d:\\wordpress\\plugins\\feed-reading-blogroll\n"
+"X-Poedit-SearchPath-0: d:\\wordpress\\plugins\\feed-reading-blogroll\n"
+
+#: feedreading_blogroll.php:119
+#: feedreading_blogroll.php:1197
+#: feedreading_blogroll.php:2468
+#: feedreading_blogroll.php:2500
+msgid "This widget adds the WP Social Blogroll to your sidebar."
+msgstr "Denna widget lägger till WP Social Blogroll i din sidopanel."
+
+#: feedreading_blogroll.php:119
+#: feedreading_blogroll.php:1197
+msgid "It can display multiple link categories. Only a single instance of this widget can be added to your sidebars."
+msgstr "Den kan visa flera länk-kategorier. Endast ett exemplar av denna widget kan läggas till i dina sidopaneler."
+
+#: feedreading_blogroll.php:159
+msgid "Settings"
+msgstr "Inställningar"
+
+#: feedreading_blogroll.php:532
+msgid "Settings saved."
+msgstr "Inställningar sparade."
+
+# maybe use the link http://sv.wordpress.org in translation
+#: feedreading_blogroll.php:568
+#: feedreading_blogroll.php:2541
+#, php-format
+msgid "You are currently using WordPress version %s. Please be informed, that future versions of the WP Social Blogroll plugin will no longer support this version of WordPress. I recommend to upgrade your WordPress-installation to <a href=\"http://wordpress.org\">the latest version</a>."
+msgstr "Du använder WordPress version %s. Du ska känna till, att framtida versioner av WP Social Blogroll-pluginet inte längre kommer stödja denna version av WordPress. Jeg rekommenderar att du uppgraderar din WordPress-installation till <a href=\"http://sv.wordpress.org\">den senaste svenska versionen</a>."
+
+#: feedreading_blogroll.php:578
+#: feedreading_blogroll.php:2534
+#, php-format
+msgid "If you have just upgraded to WordPress 2.8, you will have to add the Widget of the WP Social Blogroll plugin to your sidebar again. <a href=\"%s\">Please go to the Widget-Settings-Page</a> to add the widget to your sidebar."
+msgstr "Om du just uppgraderat till WordPress 2.8, måste du lägga till WP Social Blogroll-pluginets widget i din sidopanel igen. <a href=\"%s\">Gå till Widget-inställningar</a> för att lägga till widgeten i din sidopanel."
+
+#: feedreading_blogroll.php:590
+msgid "JavaScript-file <strong>and</strong> content-directory are writable. This is no longer necessary. You should make the content-directory read-only (chmod 755) now for security-reasons.</p><p>This plugin requires <strong>only</strong> JavaScript-file itself to be writable."
+msgstr "JavaScript-filen <strong>och</strong> wp-content-mappen är inte skrivskyddade. Det är inte längre nödvändigt. Du bör skrivskydda (chmod 755) innehåll-mappen (oftast wp-content) nu av säkerhetsskäl.</p><p>Detta plugin kräver <strong>endast</strong>, att själva JavaScript-filen inte är skrivskyddad."
+
+#: feedreading_blogroll.php:597
+msgid "Content directory and/or JavaScript-file not writable!"
+msgstr "Innehålls-mappen (oftast wp-content) och/eller JavaScript-filen är skrivskyddad."
+
+#: feedreading_blogroll.php:605
+msgid "Developer&rsquo;s Blog"
+msgstr ""
+
+#: feedreading_blogroll.php:606
+msgid "Subscribe to the Developer&rsquo;s RSS-Feed"
+msgstr ""
+
+#: feedreading_blogroll.php:606
+msgid "RSS-Feed"
+msgstr "RSS-Feed"
+
+#: feedreading_blogroll.php:610
+msgid "Plugin Home"
+msgstr "Plugin-websida"
+
+#: feedreading_blogroll.php:613
+msgid "Download latest Version"
+msgstr "Ladda ned senaste version"
+
+#: feedreading_blogroll.php:617
+msgid "Supportforum"
+msgstr "Supportforum"
+
+#: feedreading_blogroll.php:621
+#: feedreading_blogroll.php:811
+msgid "Help"
+msgstr "Hjälp"
+
+#: feedreading_blogroll.php:621
+msgid "Wiki"
+msgstr ""
+
+#: feedreading_blogroll.php:625
+msgid "Facebook"
+msgstr ""
+
+#: feedreading_blogroll.php:633
+#: feedreading_blogroll.php:640
+#: feedreading_blogroll.php:650
+#: feedreading_blogroll.php:726
+#: feedreading_blogroll.php:818
+#: feedreading_blogroll.php:906
+#: feedreading_blogroll.php:912
+#: feedreading_blogroll.php:1083
+#: feedreading_blogroll.php:1135
+#: feedreading_blogroll.php:1201
+#: feedreading_blogroll.php:2505
+msgid "Options"
+msgstr "Inställningar"
+
+#: feedreading_blogroll.php:634
+#: feedreading_blogroll.php:1130
+msgid "URL-Check"
+msgstr "URL-kontroll"
+
+#: feedreading_blogroll.php:635
+#: feedreading_blogroll.php:1081
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: feedreading_blogroll.php:636
+#: feedreading_blogroll.php:1109
+msgid "News"
+msgstr "Nyheter"
+
+#: feedreading_blogroll.php:648
+#: feedreading_blogroll.php:1077
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: feedreading_blogroll.php:653
+msgid "Google API Key"
+msgstr "Google API-nyckel"
+
+#: feedreading_blogroll.php:656
+msgid "This field is required!"
+msgstr "Detta fält måste ifyllas!"
+
+#: feedreading_blogroll.php:660
+msgid "Blogroll Title for sidebar widget"
+msgstr "Titeln på Blogroll i sidopanel-widget"
+
+#: feedreading_blogroll.php:669
+msgid "Display title above blogroll"
+msgstr "Visa titel ovanför blogroll"
+
+#: feedreading_blogroll.php:673
+msgid "Use Google Feed Discovery"
+msgstr "Använd Google Favicon  Discovery"
+
+#: feedreading_blogroll.php:678
+#: feedreading_blogroll.php:692
+#: feedreading_blogroll.php:715
+#: feedreading_blogroll.php:751
+#: feedreading_blogroll.php:782
+#: feedreading_blogroll.php:807
+#: feedreading_blogroll.php:866
+#: feedreading_blogroll.php:896
+#: feedreading_blogroll.php:962
+#: feedreading_blogroll.php:990
+#: feedreading_blogroll.php:1031
+msgid "Click me for help"
+msgstr "Klicka här för hjälp"
+
+#: feedreading_blogroll.php:681
+msgid "Automatic Feed Discovery is a service by Google which will try to find the correct feeds that belong to your bookmarks. When using Feed Discovery, you do not need to save extra feed-URLs along with your bookmarks. If you have saved a feed-URL for a bookmark, the plugin will always use the saved feed for that particular bookmark instead of Google Feed Discovery."
+msgstr "Automatic Feed Discovery är en Google-service, som försöker finna den korrekta feed-adress som hör till dina bokmärken. När du använder Feed Discovery behöver du inte spara extra en feed-URL med ditt bokmärke. Om du har sparat en feed-URL med ett bokmärke, använder pluginet alltid den sparade feed-adressen för det gällande bokmärket i stället för att använda Google Feed Discovery."
+
+#: feedreading_blogroll.php:687
+msgid "Use Google Favicon Discovery"
+msgstr "Använd Google Favicon Discovery"
+
+#: feedreading_blogroll.php:695
+msgid "Automatic Favicon Discovery is a service by Google which will try to find the correct favicons that belong to your bookmarks. When using Favicon Discovery, you do not need to save extra icon-URLs along with your bookmarks. If you have saved a icon-URL for a bookmark, the plugin will always use the saved icon for that particular bookmark instead of Google Favicon Discovery."
+msgstr ""
+
+#: feedreading_blogroll.php:703
+msgid "JavaScript loading in"
+msgstr ""
+
+#: feedreading_blogroll.php:710
+msgid "Pageheader"
+msgstr ""
+
+#: feedreading_blogroll.php:710
+#: feedreading_blogroll.php:882
+msgid "Default"
+msgstr "Standard"
+
+#: feedreading_blogroll.php:713
+msgid "Pagefooter"
+msgstr ""
+
+#: feedreading_blogroll.php:718
+msgid "Loading of the JavaScript from your blog&rsquo;s header is better for the compatibility, while loading it from the footer is better for the performance."
+msgstr ""
+
+#: feedreading_blogroll.php:725
+#: feedreading_blogroll.php:2514
+msgid "Link categories"
+msgstr "Länk-kategorier"
+
+#: feedreading_blogroll.php:728
+msgid "Categories"
+msgstr "Kategorier"
+
+#: feedreading_blogroll.php:754
+msgid "Add a category to your blogroll by activating its checkbox."
+msgstr "Lägg till en kategori till din blogroll genom att markera dess kryssruta."
+
+#: feedreading_blogroll.php:755
+msgid "Use drag and drop to reorder the categories, then save the changes with the button above."
+msgstr "Använd dra och släpp för att ändra ordningen på kategorierna. Spara sedan ändringarna med knappen ovanför."
+
+#: feedreading_blogroll.php:768
+msgid "Single Category Widgets"
+msgstr "Widget med en kategori"
+
+#: feedreading_blogroll.php:777
+msgid "Widget"
+msgstr ""
+
+#: feedreading_blogroll.php:785
+msgid "You have added these widgets to your sidebar from the Widget-Panel. There, you can edit the widget-titles and the order of the widgets."
+msgstr "Du har lagt till dessa widgets från Widget-Panelen. Där kan du redigera widget-titlarna och ordningen på dem."
+
+#: feedreading_blogroll.php:793
+msgid "Group bookmarks by category"
+msgstr "Ordna bokmärken efter kategori"
+
+#: feedreading_blogroll.php:802
+msgid "Enable Linkpage"
+msgstr ""
+
+#: feedreading_blogroll.php:810
+msgid "Enable this option, if you are using the blogroll on a linkpage."
+msgstr ""
+
+#: feedreading_blogroll.php:817
+msgid "Sorting"
+msgstr "Sortering"
+
+#: feedreading_blogroll.php:820
+msgid "Order bookmarks by"
+msgstr "Ordna bokmärken efter"
+
+#: feedreading_blogroll.php:852
+msgid "ascending"
+msgstr "stigande"
+
+#: feedreading_blogroll.php:856
+msgid "descending"
+msgstr "fallande"
+
+#: feedreading_blogroll.php:861
+msgid "Enable JavaScript-sorting"
+msgstr "Aktivera JavaScript-sortering"
+
+#: feedreading_blogroll.php:869
+msgid "JavaScript-sorting allows sorting by &quot;latest update&quot;."
+msgstr "JavaScript-sortering tillåter sortering efter &quot;senaste uppdatering&quot;."
+
+#: feedreading_blogroll.php:875
+msgid "JavaScript-sorting timeout"
+msgstr "Timeout för JavaScript-sortering"
+
+#: feedreading_blogroll.php:882
+#: feedreading_blogroll.php:885
+#: feedreading_blogroll.php:888
+#: feedreading_blogroll.php:891
+#: feedreading_blogroll.php:894
+msgid "Seconds"
+msgstr "Sekunder"
+
+#: feedreading_blogroll.php:899
+msgid "Try to sort the blogroll with JavaScript for this amount of seconds."
+msgstr "Antal sekunder som du kan pröva att sortera blogrollen med JavaScript i."
+
+#: feedreading_blogroll.php:905
+msgid "Display Options"
+msgstr "Visningsinställningar"
+
+#: feedreading_blogroll.php:908
+msgid "Style"
+msgstr "Stil"
+
+#: feedreading_blogroll.php:917
+msgid "Minimal"
+msgstr "Minimal"
+
+#: feedreading_blogroll.php:919
+msgid "Displays the blogname and age of latest article."
+msgstr "Visar bloggnamn och ålder på senaste artikel."
+
+#: feedreading_blogroll.php:925
+msgid "Classic"
+msgstr "Klassisk"
+
+#: feedreading_blogroll.php:927
+msgid "Displays the blogname and below that in one single line the age of the latest article and its title."
+msgstr "Visar bloggnamn och på en rad därunder den seneste artikelns ålder och titel."
+
+#: feedreading_blogroll.php:933
+msgid "Blogger(TM)"
+msgstr "Blogger(TM)"
+
+#: feedreading_blogroll.php:935
+msgid "Displays the blogname, the age of the latest article and its title. Each element in its own line."
+msgstr "Visar bloggnamn, ålder och titel på den senaste artikeln, varje element på egen rad."
+
+#: feedreading_blogroll.php:941
+msgid "Banners"
+msgstr "Banner"
+
+#: feedreading_blogroll.php:943
+msgid "The bookmark is displayed as a banner-link. Below the image the age of the latest article and its title are displayed."
+msgstr "Bokmärket visas som en banner-länk. Under bilden visas ålder och titel på det senaste inlägget."
+
+#: feedreading_blogroll.php:949
+msgid "Rolling"
+msgstr ""
+
+#: feedreading_blogroll.php:951
+msgid "A very compact, animated style. All bookmarks will show up, but only five of them at a time. Every few seconds, a new bookmark will fade in at the top, while another one will fade out at the bottom of the blogroll."
+msgstr ""
+
+#: feedreading_blogroll.php:958
+msgid "Max number of bookmarks per category"
+msgstr "Max antal bokmärken per kategori"
+
+#: feedreading_blogroll.php:961
+msgid "Enter a positive integer without point or other special characters. Examples: 3, 5, 10, 15, ..."
+msgstr "Skriv in ett positivt heltal utan komma eller andra specialtecken. Exempelvis: 3, 5, 10, 15, ..."
+
+#: feedreading_blogroll.php:965
+msgid "Enter the maximum number of bookmarks that should be visible in each category. Leave the field empty, if you want all bookmarks to be displayed."
+msgstr "Skriv in det maximala antal bokmärken som ska vara synligt i varje kategori. Lämna tomt för att visa samtliga bokmärken."
+
+#: feedreading_blogroll.php:966
+msgid "If JavaScript-sorting is active, the limiting will be applied after the JavaScript-sorting timeout."
+msgstr "Om JavaScript-sortering är aktiverat, kommer begränsningen att användas efter JavaScript-sorteringens timeout."
+
+#: feedreading_blogroll.php:972
+msgid "Custom location for stylesheets"
+msgstr "Användarvald placering av stylesheets"
+
+#: feedreading_blogroll.php:981
+msgid "No custom location was specified."
+msgstr "Ingen användarvald placering specificerad."
+
+#: feedreading_blogroll.php:983
+msgid "Using default instead: "
+msgstr "Använder istället standard:"
+
+#: feedreading_blogroll.php:993
+msgid "Examples: &quot;http://yourblog.com/wp-content&quot; or &quot;http://yourblog.com&quot; or &quot;http://yourblog.com/wp-content/css&quot;."
+msgstr "Exempel: &quot;http://dinblogg.se/wp-content&quot; eller &quot;http://dinblogg.se&quot; eller &quot;http://dinblogg.se/wp-content/css&quot;."
+
+#: feedreading_blogroll.php:996
+msgid "If you modify the file feedreading_blogroll.css, it is recommended to move it to another directory (e.g. /wp-content) to prevent it from getting lost during a plugin-update."
+msgstr "Om du ändrar filen feedreading_blogroll.css, rekommenderas det att flytta den till en annan mapp (t.ex. /wp-content) för att förhindra att filen förloras vid uppdatering av pluginet."
+
+#: feedreading_blogroll.php:1002
+msgid "Default icon"
+msgstr "Standard-ikon"
+
+#: feedreading_blogroll.php:1009
+msgid "CSS class for links"
+msgstr "CSS-klass för länkar"
+
+#: feedreading_blogroll.php:1016
+msgid "Show update-information"
+msgstr "Visa information om uppdatering"
+
+#: feedreading_blogroll.php:1021
+#: feedreading_blogroll.php:1410
+#: feedreading_blogroll.php:1461
+#: feedreading_blogroll.php:1504
+#: feedreading_blogroll.php:1556
+#: feedreading_blogroll.php:1603
+#: feedreading_blogroll.php:1653
+msgid "last change"
+msgstr "senaste ändring"
+
+#: feedreading_blogroll.php:1021
+#: feedreading_blogroll.php:1770
+#, php-format
+msgid "%d hrs ago"
+msgstr "%d timmar sedan"
+
+#: feedreading_blogroll.php:1021
+#: feedreading_blogroll.php:1766
+#, php-format
+msgid "%d days ago"
+msgstr "%d dagar sedan"
+
+#: feedreading_blogroll.php:1021
+#: feedreading_blogroll.php:1768
+msgid "yesterday"
+msgstr "i går"
+
+#: feedreading_blogroll.php:1025
+msgid "Show name of author"
+msgstr "Visa namn på författare"
+
+#: feedreading_blogroll.php:1030
+msgid "This option requires the enabled option <em>Show update-information</em>."
+msgstr "Detta val kräver att inställningen <em>Visa update-information</em> är aktiverad."
+
+#: feedreading_blogroll.php:1034
+msgid "Some blogs do not provide the author&rsquo;s name in their feed. In those cases, the author&rsquo;s name cannot be shown in the blogroll."
+msgstr "Några bloggar anger inte författarens namn i sin feed. Om så är fallet kan inte författarnamnet visas i blogrollen."
+
+#: feedreading_blogroll.php:1040
+#: feedreading_blogroll.php:1055
+msgid "Show title of latest post"
+msgstr "Visa titel på senaste inlägg"
+
+#: feedreading_blogroll.php:1048
+msgid "Bookmark tooltip"
+msgstr ""
+
+#: feedreading_blogroll.php:1053
+msgid "No tooltip"
+msgstr ""
+
+#: feedreading_blogroll.php:1054
+msgid "Show blog description from feed"
+msgstr ""
+
+#: feedreading_blogroll.php:1060
+msgid "Show icon"
+msgstr "Visa ikon"
+
+#: feedreading_blogroll.php:1068
+msgid "Enable bookmark preview"
+msgstr "Aktivera förhandsvisning av bokmärke"
+
+#: feedreading_blogroll.php:1085
+msgid "JavaScript file"
+msgstr "JavaScript-fil"
+
+#: feedreading_blogroll.php:1087
+msgid "This file renders article-titles and date-information into your blogroll. It is rebuild automatically by the plugin each time your bookmarks or the options of this plugin change. You can rebuild it manually by clicking the button below."
+msgstr "Denna fil gör att artikeltitlar och datum-information visas i blogroll. Den återskapas automatiskt av pluginet varje gång dina bokmärken eller pluginnets inställningar ändras. Du kan återskapa den manuellt genom att klicka på knappen nedan."
+
+#: feedreading_blogroll.php:1089
+msgid "Last rebuild:"
+msgstr "Senast återskapad:"
+
+#: feedreading_blogroll.php:1090
+#: feedreading_blogroll.php:1678
+msgid "dS F, Y h:i:s a"
+msgstr "Y-m-d H:i:s"
+
+#: feedreading_blogroll.php:1095
+msgid "Rebuild file"
+msgstr "Återskapa fil"
+
+#: feedreading_blogroll.php:1111
+msgid "You are using version"
+msgstr "Du använder version"
+
+#: feedreading_blogroll.php:1132
+msgid "This section will tell you, if RSS-URLs or image-URLs are missing. Update-information in the blogroll can only be displayed if you have saved the necessary URLs."
+msgstr "Denna sektion talar om för dig om RSS-URL eller bild-URL saknas. Uppdateringsinformation kan endast visas om du har sparat nödvändig URL."
+
+#: feedreading_blogroll.php:1149
+msgid "Web Address"
+msgstr "Webadress"
+
+#: feedreading_blogroll.php:1151
+msgid "RSS Address"
+msgstr "RSS-adress"
+
+#: feedreading_blogroll.php:1155
+msgid "via Google Feed Discovery"
+msgstr "via Google Feed Discovery"
+
+#: feedreading_blogroll.php:1157
+#: feedreading_blogroll.php:1167
+msgid "Warning"
+msgstr "Varning"
+
+#: feedreading_blogroll.php:1157
+msgid "No RSS address! Please provide a feed-url for this bookmark!"
+msgstr "Ingen RSS-adress! Ange en feed-url för detta bokmärke!"
+
+#: feedreading_blogroll.php:1160
+#: feedreading_blogroll.php:1170
+msgid "Edit Link"
+msgstr "Redigera länk"
+
+#: feedreading_blogroll.php:1163
+msgid "Image Address"
+msgstr "Bild-adress"
+
+#: feedreading_blogroll.php:1167
+msgid "No image address! If you have configured a default icon, it will be used."
+msgstr "Ingen bild-adress! Om du har angivit en standardikon i indställningarna används den."
+
+#: feedreading_blogroll.php:1367
+#: feedreading_blogroll.php:1416
+#: feedreading_blogroll.php:1509
+#: feedreading_blogroll.php:1560
+#: feedreading_blogroll.php:1607
+#: feedreading_blogroll.php:1657
+msgid "Close preview"
+msgstr "Stäng förhandsvisning"
+
+#: feedreading_blogroll.php:1772
+msgid "in the last hour"
+msgstr "nyligen"
+
+#: feedreading_blogroll.php:1774
+msgid "just recently"
+msgstr "alldeles nyss"
+
+# 'by' from '(written) 3 hours ago by (name of author)'
+#: feedreading_blogroll.php:1840
+msgid "by"
+msgstr "av"
+
+#: feedreading_blogroll.php:2468
+#: feedreading_blogroll.php:2500
+msgid "It can display one single link category. An arbitrary number of instances of this widget can be added to your sidebars."
+msgstr "Den kan visa en enskild länk-kategori. Ett valfritt antal av denna widget kan läggas till i dina sidopaneler."
+
+#: feedreading_blogroll.php:2508
+msgid "Title:"
+msgstr ""
+
+#~ msgid "widget_feedreading_blogroll widget description "
+#~ msgstr "Beskrivning av widget_feedreading_blogroll"
+#~ msgid "You have not added single category widgets to your sidebar."
+#~ msgstr ""
+#~ "Du har inte lagt till någon widget med en kategori till din sidopanel."
+

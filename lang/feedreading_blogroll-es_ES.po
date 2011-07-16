@@ -1,0 +1,531 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: feedreading_blogroll\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/feed-reading-blogroll\n"
+"POT-Creation-Date: 2010-04-23 17:56+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jan Weinschenker <jan.weinschenker@web.de>\n"
+"Language-Team:  <jjcjulien@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: feedreading_blogroll.php:119
+#: feedreading_blogroll.php:1197
+#: feedreading_blogroll.php:2468
+#: feedreading_blogroll.php:2500
+msgid "This widget adds the WP Social Blogroll to your sidebar."
+msgstr "Este widget  a&ntilde;ade la lista de enlaces a tu barra lateral."
+
+#: feedreading_blogroll.php:119
+#: feedreading_blogroll.php:1197
+msgid "It can display multiple link categories. Only a single instance of this widget can be added to your sidebars."
+msgstr "Puede mostrar m&uacute;ltiples categor&iacute;as de enlaces.  S&oacute;lo se puede a&ntilde;adir una &uacute;nica instancia de este widget en tus barras laterales."
+
+#: feedreading_blogroll.php:159
+msgid "Settings"
+msgstr "Ordenar"
+
+#: feedreading_blogroll.php:532
+msgid "Settings saved."
+msgstr "Ajustes guardados"
+
+# maybe use the link http://es.wordpress.org in translation
+#: feedreading_blogroll.php:568
+#: feedreading_blogroll.php:2541
+#, php-format
+msgid "You are currently using WordPress version %s. Please be informed, that future versions of the WP Social Blogroll plugin will no longer support this version of WordPress. I recommend to upgrade your WordPress-installation to <a href=\"http://wordpress.org\">the latest version</a>."
+msgstr "Est&aacute;s utilizando la versi&oacute;n  %s de Wordpress. Por favor ten en cuenta, que futuras versiones del plugin WP Social Blogroll no tendr&aacute;n compatibilidad con esta versi&oacute;n de Wordpress. Recomiendo que actualices tu instalaci&oacute;n de Wordpress con la <a href=\"http://es.wordpress.org\">versi&oacute;n m&aacute;s actualizada</a>."
+
+#: feedreading_blogroll.php:578
+#: feedreading_blogroll.php:2534
+#, php-format
+msgid "If you have just upgraded to WordPress 2.8, you will have to add the Widget of the WP Social Blogroll plugin to your sidebar again. <a href=\"%s\">Please go to the Widget-Settings-Page</a> to add the widget to your sidebar."
+msgstr "Si acabas de actualizar a Wordpress 2.8, deber&aacute;s volver a a&ntilde;adir el Widget del WP Social Blogroll a tu barra lateral. <a href=\"%s\">V&eacute; a la p&aacute;gina de configuraci&oacute;n de los Widgets</a> y a&ntilde;&aacute;delo a tu barra lateral."
+
+#: feedreading_blogroll.php:590
+msgid "JavaScript-file <strong>and</strong> content-directory are writable. This is no longer necessary. You should make the content-directory read-only (chmod 755) now for security-reasons.</p><p>This plugin requires <strong>only</strong> JavaScript-file itself to be writable."
+msgstr "Fichero JavaScript <strong>y</strong> directorio con derechos de escritura. Esto ya no es necesario. Deber&iacute;as cambiar los derechos de escritura a lectura s&oacute;lo (chmod 755) por motivos de seguridad. </p><p>Este plugin <strong>s&oacute;lo</strong> requiere que el fichero JavaScript tenga derechos de escritura."
+
+#: feedreading_blogroll.php:597
+msgid "Content directory and/or JavaScript-file not writable!"
+msgstr "&iexcl; El directorio o el fichero JavScript no tienen derechos de escritura !"
+
+#: feedreading_blogroll.php:605
+msgid "Developer&rsquo;s Blog"
+msgstr "Blog de los Desarrolladores"
+
+#: feedreading_blogroll.php:606
+msgid "Subscribe to the Developer&rsquo;s RSS-Feed"
+msgstr "Suscr&iacute;bete al hilo RSS de los Desarrolladores "
+
+#: feedreading_blogroll.php:606
+msgid "RSS-Feed"
+msgstr "RSS-Feed"
+
+#: feedreading_blogroll.php:610
+msgid "Plugin Home"
+msgstr "P&aacute;gina web del plugin"
+
+#: feedreading_blogroll.php:613
+msgid "Download latest Version"
+msgstr "B&aacute;jate la &uacute;ltima versi&oacute;n del plugin"
+
+#: feedreading_blogroll.php:617
+msgid "Supportforum"
+msgstr "Foro de ayuda"
+
+#: feedreading_blogroll.php:621
+#: feedreading_blogroll.php:811
+msgid "Help"
+msgstr "Ayuda"
+
+#: feedreading_blogroll.php:621
+msgid "Wiki"
+msgstr "Wiki"
+
+#: feedreading_blogroll.php:625
+msgid "Facebook"
+msgstr ""
+
+#: feedreading_blogroll.php:633
+#: feedreading_blogroll.php:640
+#: feedreading_blogroll.php:650
+#: feedreading_blogroll.php:726
+#: feedreading_blogroll.php:818
+#: feedreading_blogroll.php:906
+#: feedreading_blogroll.php:912
+#: feedreading_blogroll.php:1083
+#: feedreading_blogroll.php:1135
+#: feedreading_blogroll.php:1201
+#: feedreading_blogroll.php:2505
+msgid "Options"
+msgstr "Opciones"
+
+#: feedreading_blogroll.php:634
+#: feedreading_blogroll.php:1130
+msgid "URL-Check"
+msgstr "Comprobaci&oacute;n de URL"
+
+#: feedreading_blogroll.php:635
+#: feedreading_blogroll.php:1081
+msgid "JavaScript"
+msgstr "Fichero JavaScript"
+
+#: feedreading_blogroll.php:636
+#: feedreading_blogroll.php:1109
+msgid "News"
+msgstr "Noticias"
+
+#: feedreading_blogroll.php:648
+#: feedreading_blogroll.php:1077
+msgid "Save Changes"
+msgstr "Guarda los cambios"
+
+#: feedreading_blogroll.php:653
+msgid "Google API Key"
+msgstr "Google API Key"
+
+#: feedreading_blogroll.php:656
+msgid "This field is required!"
+msgstr "&iexcl; Este campo es obligatorio !"
+
+#: feedreading_blogroll.php:660
+msgid "Blogroll Title for sidebar widget"
+msgstr "T&iacute;tulo de la lista de enlaces para el widget de la barra lateral"
+
+#: feedreading_blogroll.php:669
+msgid "Display title above blogroll"
+msgstr "Mostrar t&iacute;tulo  encima de la lista de enlaces"
+
+#: feedreading_blogroll.php:673
+msgid "Use Google Feed Discovery"
+msgstr "Utilizar el Google Feed Discovery"
+
+#: feedreading_blogroll.php:678
+#: feedreading_blogroll.php:692
+#: feedreading_blogroll.php:715
+#: feedreading_blogroll.php:751
+#: feedreading_blogroll.php:782
+#: feedreading_blogroll.php:807
+#: feedreading_blogroll.php:866
+#: feedreading_blogroll.php:896
+#: feedreading_blogroll.php:962
+#: feedreading_blogroll.php:990
+#: feedreading_blogroll.php:1031
+msgid "Click me for help"
+msgstr "Haz clic para obtener la ayuda"
+
+#: feedreading_blogroll.php:681
+msgid "Automatic Feed Discovery is a service by Google which will try to find the correct feeds that belong to your bookmarks. When using Feed Discovery, you do not need to save extra feed-URLs along with your bookmarks. If you have saved a feed-URL for a bookmark, the plugin will always use the saved feed for that particular bookmark instead of Google Feed Discovery."
+msgstr "Automatic Feed Discovery es un servicio de Google que intenta encontrar los canales de difusi&oacute;n correctos para tus enlaces. Cuando se usa Feed Discovery, no hace falta grabar la direcci&oacute;n URL del canal de difusi&oacute;n junto con tus enlaces. Si por el contrario se grab&oacute;  dicha direcci&oacute;n URL  para un enlace en particular, el plugin utilizar&aacute; la mencionada direcci&oacute;n URL del canal de difusi&oacute;n en lugar del Google Feed Discovery."
+
+#: feedreading_blogroll.php:687
+msgid "Use Google Favicon Discovery"
+msgstr "Utilizar el Google Favicon Discovery"
+
+#: feedreading_blogroll.php:695
+msgid "Automatic Favicon Discovery is a service by Google which will try to find the correct favicons that belong to your bookmarks. When using Favicon Discovery, you do not need to save extra icon-URLs along with your bookmarks. If you have saved a icon-URL for a bookmark, the plugin will always use the saved icon for that particular bookmark instead of Google Favicon Discovery."
+msgstr "Automatic Favicon Discovery es un servicio de Google que intenta encontrar el icono favorito correcto para tus enlaces preferidos. Al usar Favicon Discovery, no hace falta que salvaguardes ning&uacute;n enlace URL para tu enlace preferido. En cambio si ya salvaguardaste un enlace URL para tu enlace preferido, este plugin siempre usar&aacute; el icono salvaguardado  asociado a este enlace en particular, en lugar del proporcionado por Google Favicon Discovery."
+
+#: feedreading_blogroll.php:703
+msgid "JavaScript loading in"
+msgstr "JavaScript cargando en"
+
+#: feedreading_blogroll.php:710
+msgid "Pageheader"
+msgstr "Encabezado de p&aacute;gina"
+
+#: feedreading_blogroll.php:710
+#: feedreading_blogroll.php:882
+msgid "Default"
+msgstr "Por defecto"
+
+#: feedreading_blogroll.php:713
+msgid "Pagefooter"
+msgstr "Pie de p&aacute;gina"
+
+#: feedreading_blogroll.php:718
+msgid "Loading of the JavaScript from your blog&rsquo;s header is better for the compatibility, while loading it from the footer is better for the performance."
+msgstr "Cargar el JavaScript desde la cabecera de tu blog es mejor para la compatibilidad, mientras que cargarlo desde el pie del blog mejora el rendimineto."
+
+#: feedreading_blogroll.php:725
+#: feedreading_blogroll.php:2514
+msgid "Link categories"
+msgstr "Categor&iacute;as de enlaces"
+
+#: feedreading_blogroll.php:728
+msgid "Categories"
+msgstr "Categor&iacute;as de enlaces"
+
+#: feedreading_blogroll.php:754
+msgid "Add a category to your blogroll by activating its checkbox."
+msgstr "A&ntilde;ade una categor&iacute;a  marcando su correspondiente casilla de verificaci&oacute;n."
+
+#: feedreading_blogroll.php:755
+msgid "Use drag and drop to reorder the categories, then save the changes with the button above."
+msgstr "Utiliza arrastrar y soltar para ordenar las categor&iacute;as,  y luego graba los cambios mediante el bot&oacute;n de arriba."
+
+#: feedreading_blogroll.php:768
+msgid "Single Category Widgets"
+msgstr "Widgets de categor&iacute;a &uacute;nica"
+
+#: feedreading_blogroll.php:777
+msgid "Widget"
+msgstr "Widget"
+
+#: feedreading_blogroll.php:785
+msgid "You have added these widgets to your sidebar from the Widget-Panel. There, you can edit the widget-titles and the order of the widgets."
+msgstr "Has agregado estos widgets a tu barra lateral desde el panel de configuraci&oacute;n de widgets. All&iacute; podr&aacute;s editar los t&iacute;tulos y el orden de los mismos."
+
+#: feedreading_blogroll.php:793
+msgid "Group bookmarks by category"
+msgstr "Agrupar enlaces por categor&iacute;as"
+
+#: feedreading_blogroll.php:802
+msgid "Enable Linkpage"
+msgstr ""
+
+#: feedreading_blogroll.php:810
+msgid "Enable this option, if you are using the blogroll on a linkpage."
+msgstr ""
+
+#: feedreading_blogroll.php:817
+msgid "Sorting"
+msgstr "Ordenar"
+
+#: feedreading_blogroll.php:820
+msgid "Order bookmarks by"
+msgstr "Ordenar enlaces por"
+
+#: feedreading_blogroll.php:852
+msgid "ascending"
+msgstr "ascendiente"
+
+#: feedreading_blogroll.php:856
+msgid "descending"
+msgstr "descendiente"
+
+#: feedreading_blogroll.php:861
+msgid "Enable JavaScript-sorting"
+msgstr "Habilitar  ordenar mediante JavaScript"
+
+#: feedreading_blogroll.php:869
+msgid "JavaScript-sorting allows sorting by &quot;latest update&quot;."
+msgstr "Ordenar mediante JavaScript permite ordenar por &quot;&uacute;ltima actualizaci&oacute;n&quot;."
+
+#: feedreading_blogroll.php:875
+msgid "JavaScript-sorting timeout"
+msgstr "Tiempo m&aacute;ximo de espera:"
+
+#: feedreading_blogroll.php:882
+#: feedreading_blogroll.php:885
+#: feedreading_blogroll.php:888
+#: feedreading_blogroll.php:891
+#: feedreading_blogroll.php:894
+msgid "Seconds"
+msgstr "Segundos"
+
+#: feedreading_blogroll.php:899
+msgid "Try to sort the blogroll with JavaScript for this amount of seconds."
+msgstr "Intenta ordenar la lista de enlaces mediante JavaScript con esta cantidad de segundos."
+
+#: feedreading_blogroll.php:905
+msgid "Display Options"
+msgstr "Opciones de est&iacute;lo"
+
+#: feedreading_blogroll.php:908
+msgid "Style"
+msgstr "Est&iacute;lo"
+
+#: feedreading_blogroll.php:917
+msgid "Minimal"
+msgstr "Minimalista"
+
+#: feedreading_blogroll.php:919
+msgid "Displays the blogname and age of latest article."
+msgstr "Muestra el nombre del blog y la fecha del &uacute;ltimo art&iacute;culo."
+
+#: feedreading_blogroll.php:925
+msgid "Classic"
+msgstr "Cl&aacute;sico"
+
+#: feedreading_blogroll.php:927
+msgid "Displays the blogname and below that in one single line the age of the latest article and its title."
+msgstr "Muestra el nombre del blog y debajo, en una &uacute;nica l&iacute;nea, la fecha del &uacute;ltimo art&iacute;culo y su t&iacute;tulo."
+
+#: feedreading_blogroll.php:933
+msgid "Blogger(TM)"
+msgstr "Blogger(TM)"
+
+#: feedreading_blogroll.php:935
+msgid "Displays the blogname, the age of the latest article and its title. Each element in its own line."
+msgstr "Muestra el nombre del blog, la fecha del &uacute;ltimo art&iacute;culo y su t&iacute;tulo. Cada uno de estos elementos en su propia l&iacute;nea."
+
+#: feedreading_blogroll.php:941
+msgid "Banners"
+msgstr "Banners"
+
+#: feedreading_blogroll.php:943
+msgid "The bookmark is displayed as a banner-link. Below the image the age of the latest article and its title are displayed."
+msgstr "El enlace se ver&aacute; c&oacute;mo un banner. Debajo de la imagen, aparecen  la fecha y el t&iacute;tulo del art&iacute;culo."
+
+#: feedreading_blogroll.php:949
+msgid "Rolling"
+msgstr "Rodante"
+
+#: feedreading_blogroll.php:951
+msgid "A very compact, animated style. All bookmarks will show up, but only five of them at a time. Every few seconds, a new bookmark will fade in at the top, while another one will fade out at the bottom of the blogroll."
+msgstr "Modo muy compacto y animado. Se muestran todos los enlaces, pero solo de cinco en cinco. Cada pocos segundos, un enlace se materializa en la parte de arriba,  al mismo tiempo que otro desaparece por la parte de abajo de la lista de enlaces."
+
+#: feedreading_blogroll.php:958
+msgid "Max number of bookmarks per category"
+msgstr "N&uacute;mero m&aacute;ximo de enlaces por categor&iacute;a"
+
+#: feedreading_blogroll.php:961
+msgid "Enter a positive integer without point or other special characters. Examples: 3, 5, 10, 15, ..."
+msgstr "Teclea un &iacute;ntegro positivo sin punto o cualquier otro car&aacute;cter especial. Por ejemplo : 3, 5, 10, 15, ..."
+
+#: feedreading_blogroll.php:965
+msgid "Enter the maximum number of bookmarks that should be visible in each category. Leave the field empty, if you want all bookmarks to be displayed."
+msgstr "Pon el n&uacute;mero tope de enlaces que deber&iacute;n verse para cada categor&iacute;a. Deja el campo en blanco, si deseas que aparezcan todos los enlaces "
+
+#: feedreading_blogroll.php:966
+msgid "If JavaScript-sorting is active, the limiting will be applied after the JavaScript-sorting timeout."
+msgstr "Si ordenar mediante JavaScript est&aacute; activo, la restricci&oacute;n se aplicar&aacute; despues del tiempo m&aacute;ximo de espera"
+
+#: feedreading_blogroll.php:972
+msgid "Custom location for stylesheets"
+msgstr "Direcci&oacute;n alternativa para hoja de est&iacute;lo CSS"
+
+#: feedreading_blogroll.php:981
+msgid "No custom location was specified."
+msgstr "No se especific&oacute; ninguna direcci&oacute;n personalizada."
+
+#: feedreading_blogroll.php:983
+msgid "Using default instead: "
+msgstr "Se usar&aacute; la que consta por defecto."
+
+#: feedreading_blogroll.php:993
+msgid "Examples: &quot;http://yourblog.com/wp-content&quot; or &quot;http://yourblog.com&quot; or &quot;http://yourblog.com/wp-content/css&quot;."
+msgstr "Ejemplos: &quot;http://yourblog.com/wp-content&quot; o  &quot;http://yourblog.com&quot; o  &quot;http://yourblog.com/wp-content/css&quot;."
+
+#: feedreading_blogroll.php:996
+msgid "If you modify the file feedreading_blogroll.css, it is recommended to move it to another directory (e.g. /wp-content) to prevent it from getting lost during a plugin-update."
+msgstr "Si decides modificar el archivo feedreading_blogroll.css, te recomendamos que lo cambies a otro directorio (e.j. /wp-content) para evitar que se pierda en la pr&oacute;xima actualizaci&oacute;n del plugin."
+
+#: feedreading_blogroll.php:1002
+msgid "Default icon"
+msgstr "&Iacute;cono por defecto"
+
+#: feedreading_blogroll.php:1009
+msgid "CSS class for links"
+msgstr "clase CSS para los enlaces"
+
+#: feedreading_blogroll.php:1016
+msgid "Show update-information"
+msgstr "Mostrar informaci&oacute;n de actualizaci&oacute;n"
+
+#: feedreading_blogroll.php:1021
+#: feedreading_blogroll.php:1410
+#: feedreading_blogroll.php:1461
+#: feedreading_blogroll.php:1504
+#: feedreading_blogroll.php:1556
+#: feedreading_blogroll.php:1603
+#: feedreading_blogroll.php:1653
+msgid "last change"
+msgstr "&uacute;ltimo cambio"
+
+#: feedreading_blogroll.php:1021
+#: feedreading_blogroll.php:1770
+#, php-format
+msgid "%d hrs ago"
+msgstr "Hace %d horas"
+
+#: feedreading_blogroll.php:1021
+#: feedreading_blogroll.php:1766
+#, php-format
+msgid "%d days ago"
+msgstr "hace %d  d&iacute;as"
+
+#: feedreading_blogroll.php:1021
+#: feedreading_blogroll.php:1768
+msgid "yesterday"
+msgstr "ayer"
+
+#: feedreading_blogroll.php:1025
+msgid "Show name of author"
+msgstr "Mostrar nombre del autor"
+
+#: feedreading_blogroll.php:1030
+msgid "This option requires the enabled option <em>Show update-information</em>."
+msgstr "Esta opci&oacute;n requiere haber habilitado previamente la opci&oacute;n <em>Mostrar informaci&oacute;n de actualizaci&oacute;n</em>."
+
+#: feedreading_blogroll.php:1034
+msgid "Some blogs do not provide the author&rsquo;s name in their feed. In those cases, the author&rsquo;s name cannot be shown in the blogroll."
+msgstr "Algunos blogs no publican el nombre del o de los autores. En ese caso el nombre del o de los autores no puede verse en la lista de enlaces"
+
+#: feedreading_blogroll.php:1040
+#: feedreading_blogroll.php:1055
+msgid "Show title of latest post"
+msgstr "Mostrar t&iacute;tulo del &uacute;ltimo post"
+
+#: feedreading_blogroll.php:1048
+msgid "Bookmark tooltip"
+msgstr "Enlaces con texto de ayuda"
+
+#: feedreading_blogroll.php:1053
+msgid "No tooltip"
+msgstr "Sin texto de ayuda"
+
+#: feedreading_blogroll.php:1054
+msgid "Show blog description from feed"
+msgstr "Mostrar la descripci&oacute;n del blog desde el feed"
+
+#: feedreading_blogroll.php:1060
+msgid "Show icon"
+msgstr "Mostrar &iacute;cono"
+
+#: feedreading_blogroll.php:1068
+msgid "Enable bookmark preview"
+msgstr "Habilitar vista previa de enlaces"
+
+#: feedreading_blogroll.php:1085
+msgid "JavaScript file"
+msgstr "Fichero JavaScript"
+
+#: feedreading_blogroll.php:1087
+msgid "This file renders article-titles and date-information into your blogroll. It is rebuild automatically by the plugin each time your bookmarks or the options of this plugin change. You can rebuild it manually by clicking the button below."
+msgstr "Este fichero renderiza t&iacute;tulos de art&iacute;culos e informaci&oacute;n de fechas en tu lista de enlaces. Viene generado autom&aacute;ticamente por el plugin cada vez que se cambian las preferencias o las opciones del mismo. Puedes volver a generarlo manualmente apretando el bot&oacute;n de abajo."
+
+#: feedreading_blogroll.php:1089
+msgid "Last rebuild:"
+msgstr "&Uacute;ltima recompilaci&oacute;n: "
+
+# a PHP-dateformat that is appropriate for your language
+# j.m.Y G:i:s means: dd.mm.YYYY 23:59:59
+#: feedreading_blogroll.php:1090
+#: feedreading_blogroll.php:1678
+msgid "dS F, Y h:i:s a"
+msgstr "j.m.Y G:i:s"
+
+#: feedreading_blogroll.php:1095
+msgid "Rebuild file"
+msgstr "Fichero recompilado"
+
+#: feedreading_blogroll.php:1111
+msgid "You are using version"
+msgstr "Est&aacute;s usando la versi&oacute;n"
+
+#: feedreading_blogroll.php:1132
+msgid "This section will tell you, if RSS-URLs or image-URLs are missing. Update-information in the blogroll can only be displayed if you have saved the necessary URLs."
+msgstr "En este apartado  ver&aacute;s si faltan las direcciones url de RSS o  los enlaces hacia las  im&aacute;genes. La informaci&oacute;n en la lista de enlaces s&oacute;lo se mostrar&aacute; si has proporcionado todas las direcciones url necesarias."
+
+#: feedreading_blogroll.php:1149
+msgid "Web Address"
+msgstr "Direcci&oacute;n web"
+
+#: feedreading_blogroll.php:1151
+msgid "RSS Address"
+msgstr "Direcci&oacute;n de RSS"
+
+#: feedreading_blogroll.php:1155
+msgid "via Google Feed Discovery"
+msgstr "a trav&eacute;s del Google Feed Discovery"
+
+#: feedreading_blogroll.php:1157
+#: feedreading_blogroll.php:1167
+msgid "Warning"
+msgstr "Aviso"
+
+#: feedreading_blogroll.php:1157
+msgid "No RSS address! Please provide a feed-url for this bookmark!"
+msgstr "&iexcl; No hay direcci&oacute;n de RSS ! Por favor proporciona una direecci&oacute;n url de feed para este enlace !"
+
+#: feedreading_blogroll.php:1160
+#: feedreading_blogroll.php:1170
+msgid "Edit Link"
+msgstr "Editar Enlace"
+
+#: feedreading_blogroll.php:1163
+msgid "Image Address"
+msgstr "Ruta de las im&aacute;genes"
+
+#: feedreading_blogroll.php:1167
+msgid "No image address! If you have configured a default icon, it will be used."
+msgstr "No existe enlace hacia una imagen !  Si has configurado un &iacute;cono por defecto, este ser&aacute;  utilizado."
+
+#: feedreading_blogroll.php:1367
+#: feedreading_blogroll.php:1416
+#: feedreading_blogroll.php:1509
+#: feedreading_blogroll.php:1560
+#: feedreading_blogroll.php:1607
+#: feedreading_blogroll.php:1657
+msgid "Close preview"
+msgstr "Cerrar vista previa"
+
+#: feedreading_blogroll.php:1772
+msgid "in the last hour"
+msgstr "en la &uacute;ltima hora"
+
+#: feedreading_blogroll.php:1774
+msgid "just recently"
+msgstr "hace un rato"
+
+# 'by' from '(written) 3 hours ago by (name of author)'
+#: feedreading_blogroll.php:1840
+msgid "by"
+msgstr "por"
+
+#: feedreading_blogroll.php:2468
+#: feedreading_blogroll.php:2500
+msgid "It can display one single link category. An arbitrary number of instances of this widget can be added to your sidebars."
+msgstr "Puede mostrar una sola categor&iacute;a de enlaces. Se pueden agregar un  n&uacute;mero arbitrario de instancias de este widget a las barras laterales."
+
+#: feedreading_blogroll.php:2508
+msgid "Title:"
+msgstr "T&iacute;tulo"
+
