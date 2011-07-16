@@ -4,7 +4,7 @@
  * plugin lets you embed an enhanced blogroll that reads the feeds of your
  * bookmarked sites. 
  * 
- * Version: 1.5.7
+ * Version: 1.5.8
  * Author: Jan Weinschenker 
  * Author URI: http://www.weinschenker.name
  * 
