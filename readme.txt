@@ -2,9 +2,9 @@
 Contributors: erunafailaro
 Donate link: http://www.icrc.org/Web/eng/siteeng0.nsf/htmlall/helpicrc
 Tags: blogroll, sort, social, freshness, bookmarks, links, sidebar, widget, update, icon, feed, rss2, atom, ajax, Google API, template tag, bloglist, JavaScript, wpmu
-Requires at least: 2.7.1
+Requires at least: 3.0
 Tested up to: 3.1
-Stable tag: 1.5.7
+Stable tag: 1.5.8
 
 WP Social Blogroll adds a social blogroll to your blog. It will follow and display all updates of the sites in your blogroll.
 
@@ -136,6 +136,10 @@ This idea can pursued even further with help from the plugin [Widget Logic](http
 
 
 == Changelog ==
+= 1.5.8 =
+* Fixed a bug that made it impossible to sort the link-categories of the multi-category-widget.
+* Updated Turkish translation.
+
 = 1.5.7 =
 * Fixed the JavaScript for the Rolling style following changes in the WordPress core that came into effect with WordPress 3.1.
 
@@ -289,6 +293,10 @@ This idea can pursued even further with help from the plugin [Widget Logic](http
 * Initial release
 
 == Upgrade Notice ==
+= 1.5.8 =
+* Fixed a bug that made it impossible to sort the link-categories of the multi-category-widget.
+* Updated Turkish translation.
+
 = 1.5.7 =
 * Fixed a compatibility issue with WordPress 3.1 that stopped the Rolling style from working.
 
