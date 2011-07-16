@@ -12,7 +12,7 @@
 	<target name="upload.mainfile">
 		<echo message="sending files to ftp://${ftp.server}${remote.frbr.dir}" />
 		<ftp server="${ftp.server}" remotedir="${remote.frbr.dir}" 
-			userid="${env.FTP_USER}" password="${env.FTP_PASS}" depends="yes" binary="yes" passive="true" verbose="true">
+			userid="${env.FTP_USER}" password="${env.FTP_PASS}" depends="yes" binary="no" passive="true" verbose="true">
 			<fileset dir="${frbr.basedir}">
 				<include name="feedreading_blogroll.php" />
 			</fileset>
@@ -20,7 +20,7 @@
 	</target>
 	<target name="delete.mainfile">
 		<echo message="sending files to ftp://${ftp.server}${remote.frbr.dir}" />
-		<ftp server="${ftp.server}" remotedir="${remote.frbr.dir}" action="delete"
+		<ftp server="${ftp.server}" remotedir="${remote.frbr.dir}" action="delete" 
 			userid="${env.FTP_USER}" password="${env.FTP_PASS}" depends="yes" binary="yes" passive="true" verbose="true">
 			<fileset>
 				<include name="feedreading_blogroll.php" />
