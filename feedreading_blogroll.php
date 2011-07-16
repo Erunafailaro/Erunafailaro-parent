@@ -3,7 +3,7 @@
  Plugin Name: WP Social Blogroll
  Plugin URI: http://www.weinschenker.name/plugin-feed-reading-blogroll/
  Description: This plugin allows you to add a social blogroll to your blog. The blogroll will display your bookmarks, their freshness and their latest post-title.
- Version: 1.5.7
+ Version: 1.5.8
  Author: Jan Weinschenker
  Author URI: http://www.weinschenker.name
 
@@ -241,16 +241,18 @@ function feedreading_blogroll_order_cats($linkCats, $orderString){
 		$orderArray2[substr($orderedCat,8)]=$i;
 		$i=$i+1;
 	}
-	$i=1;
+	$i=0;
 	foreach($linkCats as $linkCat){
-		$catId=(int) $linkCat->term_ID;
-		if(!empty($orderArray2->$catId)){
+		$catId=intval($linkCat->term_ID);
+
+		if( array_key_exists($catId, $orderArray2)){
 			$linkCats2[$orderArray2[$catId]]=$linkCat;
 		} else {
 			$linkCats2[$i+1000000]=$linkCat;
 		}
 		$i=$i+1;
 	}
+
 	ksort($linkCats2);
 	return array_values($linkCats2);
 }
@@ -736,7 +738,9 @@ function feedreading_blogroll_options_subpanel(){
 				<tr>
 					<th scope="row" valign="top"><?php _e('Categories','feedreading_blogroll')?></th>
 					<td>
+
 						<ul id="categoryOrderList">
+						
 						<?php
 						$orderedArray = feedreading_blogroll_order_cats((array) $cats, $feedreading_blogroll_settings['categoryOrderArray']);
 						foreach ($orderedArray as $orderedCat) {
