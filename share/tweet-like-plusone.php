@@ -11,7 +11,6 @@
  */
 
 
-add_action('wp_enqueue_scripts', 'tweetlikeplus_scripts');
 
 add_action('wp_footer', 'tweetlikeplus_googleplus_footer');
 
@@ -19,14 +18,6 @@ function tweetlikeplus_googleplus_footer() {
 	?>
 <div id="fb-root"></div>
 	<?php
-}
-
-function tweetlikeplus_scripts(){
-	$clang=get_option( 's4fblikelang', 'en_US' );
-	wp_enqueue_script('tweet_api', 'http://platform.twitter.com/widgets.js', array(), '1.0', true);
-	//wp_enqueue_script('fb_api', 'http://connect.facebook.net/'.$clang.'/all.js#xfbml=1', array(), '1.0',true);
-	//wp_enqueue_script('googleplus_api', 'http://apis.google.com/js/plusone.js', array(), '1.0',true);
-	//wp_enqueue_script('fbshare_api', 'http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript', array(), '1.0',true);
 }
 
 function disp_social($content) {
