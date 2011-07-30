@@ -1,0 +1,118 @@
+.gsc-result .gs-title {
+height: auto !important;
+}
+.gsc-resultsbox-visible div {
+margin-top:0 !important;
+margin-bottom:0 !important;
+}
+
+.gsc-resultsbox-visible div.gs-visibleUrl{
+margin-bottom:1em !important;
+}
+#search_control_tabbed .gsc-control { width : 500px; }
+.search-control { margin: 20px; }
+
+div#akct {
+    position: absolute; top:0px; right: 0px; z-index: 2342; width:113px; height:88px;
+    background-image: url(http://wiki.vorratsdatenspeicherung.de/images/Akvse.gif);
+    background-repeat: no-repeat;
+    background-position: right top;
+    border:none;
+    padding:0;
+    margin:0;
+    text-align: right;
+}
+
+div#akct img {
+    border:none;
+    padding:0;
+    margin:0;
+    background: none;
+}
+
+div#akct a#akpeel img {
+        width: 113px;
+        height: 88px;
+}
+
+div#akct a, div#akct a:hover {
+    text-decoration: none;
+    border:none;
+    padding:0;
+    margin:0;
+    display: block;
+    background: none;
+}
+
+div#akct a#akpeel:hover {
+    position: absolute; top:0px; right: 0px; z-index: 4223; width:500px; height:500px;
+    display: block;
+    background-image: url(http://wiki.vorratsdatenspeicherung.de/images/Akvsb.gif);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+div#akct a#akpreload {
+    background-image: url(http://wiki.vorratsdatenspeicherung.de/images/Akvsb.gif);
+    background-repeat: no-repeat;
+    background-position: 234px 0px;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+.wp-caption {
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color: #f3f3f3;
+    padding-top: 4px;
+    margin: 10px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.wp-caption img {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    padding: 0 4px 5px;
+    margin: 0;
+}
+        
+.ui-tabs-hide { display: none; }
+
+.secondary div#text-225832071 div.textwidget{
+margin-top:0 !important;
+}
+
+div#tinyurl{
+	padding-left: 20px;
+	background-image: url(/wp-content/plugins/sociable/images/twitter.png);
+	background-repeat: no-repeat;
+}
+
+a#tinyanchor{
+	display:none;
+}
+iframe.fb_ltr {
+	width:600px;
+}

@@ -2,7 +2,7 @@
 Contributors: sudiptomahato
 Donate link: http://letusbuzz.com/go/donate/
 Tags: Simple social share, social share, Facebook, Like, google, google +1, google plusone, twitter, tweet, facebook share, plusone
-Requires at least: 3.0
+Requires at least: 3.1
 Tested up to: 3.1.4
 Stable tag: 1.1.6.1
 

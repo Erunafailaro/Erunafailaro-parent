@@ -37,4 +37,13 @@
 			</fileset>
 		</ftp>
 	</target>
+	<target name="download.hooks">
+		<echo message="getting files to ftp://${ftp.server}${remote.hooks.dir}" />
+		<ftp server="${ftp.server}" remotedir="${remote.hooks.dir}" action="get"
+			userid="${env.FTP_USER}" password="${env.FTP_PASS}" depends="no" binary="yes" passive="false" verbose="true">
+			<fileset dir="${hooks.basedir}">
+				<include name="${hooks.include.filename}" />
+			</fileset>
+		</ftp>
+	</target>
 </project>
