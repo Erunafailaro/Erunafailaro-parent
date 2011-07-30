@@ -3,7 +3,7 @@ jQuery(function($) {
     addGameOfLife();
     addFB();
     addBC();
-    //addFBShareLike();
+    addFBShareLike();
     trackSocial();
     //googlePlusOne();
     //nwBlogs();
@@ -91,13 +91,25 @@ function addFB(){
 }
 
 function addFBShareLike(){
+	  (function() {
+		  if(jQuery('g\\:plusone').length>0) {
+	    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+	    po.src = 'https://apis.google.com/js/plusone.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		  }
+		  
+	  })();
 	if(jQuery('fb\\:like').length > 0) {
-		jQuery.getScript('http://connect.facebook.net/en_US/all.js', function(){
-
-		});
-		jQuery.getScript('http://static.ak.fbcdn.net/connect.php/js/FB.Share', function(){
-
-		});
+		  window.fbAsyncInit = function() {
+			    FB.init({status: true, cookie: true,
+			             xfbml: true});
+			  };
+			  (function() {
+			    var e = document.createElement('script'); e.async = true;
+			    e.src = document.location.protocol +
+			      '//connect.facebook.net/en_US/all.js';
+			    document.getElementById('fb-root').appendChild(e);
+			  }());
 	}
 }
 
